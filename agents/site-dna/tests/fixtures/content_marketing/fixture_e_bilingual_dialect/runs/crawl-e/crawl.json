@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-e",
+  "status": "completed",
+  "website_info": {
+    "initial_url": "https://dialect.example.com",
+    "canonical_origin": "https://dialect.example.com",
+    "declared_language": "ar"
+  },
+  "pages": [
+    {
+      "url": "https://dialect.example.com/",
+      "final_url": "https://dialect.example.com/",
+      "status_code": 200,
+      "depth": 0,
+      "category": "home",
+      "metadata": {
+        "title": "تطبيق أساس — حياك الله",
+        "language": "ar",
+        "dir": "rtl"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "حياك في تطبيق أساس! ودك تنظم جدولك؟ أبشر بالخير"
+        }
+      ],
+      "main_content_text": "سوينا لك منصة ذكية تضبط مواعيدك وترتب شغلك الحين بكل سهولة وسرعة. We also provide full API support for enterprise developers.",
+      "word_count": 35,
+      "navigation_links": [],
+      "buttons": [
+        "حمّل التطبيق الآن"
+      ],
+      "images": [],
+      "forms": []
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EV-E01",
+      "run_id": "crawl-e",
+      "source_url": "https://dialect.example.com/",
+      "evidence_type": "observed",
+      "field_reference": "h1",
+      "exact_value": "حياك في تطبيق أساس"
+    }
+  ]
+}

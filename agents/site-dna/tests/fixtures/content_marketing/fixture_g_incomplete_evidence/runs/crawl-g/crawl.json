@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-g",
+  "status": "completed",
+  "website_info": {
+    "initial_url": "https://empty.example.com",
+    "canonical_origin": "https://empty.example.com"
+  },
+  "pages": [
+    {
+      "url": "https://empty.example.com/",
+      "final_url": "https://empty.example.com/",
+      "status_code": 200,
+      "depth": 0,
+      "category": "home",
+      "metadata": {
+        "title": null,
+        "language": null
+      },
+      "headings": [],
+      "main_content_text": "",
+      "word_count": 0,
+      "navigation_links": [],
+      "buttons": [],
+      "images": [],
+      "forms": []
+    }
+  ],
+  "evidence": []
+}

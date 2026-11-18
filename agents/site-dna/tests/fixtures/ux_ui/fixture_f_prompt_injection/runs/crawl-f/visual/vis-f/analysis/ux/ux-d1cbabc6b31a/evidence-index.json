@@ -1,0 +1,11 @@
+[
+  {
+    "evidence_id": "EV-F01",
+    "evidence_category": "dom_element",
+    "field_reference": "meta",
+    "page_url": "https://injection-test.example.com/",
+    "viewport_profile": "desktop",
+    "screenshot_reference": null,
+    "checksum": null
+  }
+]

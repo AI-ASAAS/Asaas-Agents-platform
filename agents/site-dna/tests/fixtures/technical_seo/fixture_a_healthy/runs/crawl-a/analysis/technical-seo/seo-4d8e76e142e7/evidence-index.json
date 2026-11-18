@@ -1,0 +1,14 @@
+{
+  "EV-001": {
+    "id": "EV-001",
+    "run_id": "crawl-a",
+    "source_url": "https://healthy-seo.example.com/",
+    "final_url": null,
+    "evidence_type": "observed",
+    "field_reference": "page.title",
+    "exact_value": "منصة أساس — حلول الذكاء الاصطناعي السحابية",
+    "timestamp": "2026-11-08T10:01:59.786344Z",
+    "extraction_method": "html_parser",
+    "metadata": {}
+  }
+}

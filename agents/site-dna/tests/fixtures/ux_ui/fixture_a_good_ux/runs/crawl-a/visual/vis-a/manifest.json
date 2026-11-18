@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "crawl_run_id": "crawl-a",
+  "visual_run_id": "vis-a",
+  "status": "completed",
+  "target_origin": "https://good-ux.example.com",
+  "pages": [
+    {
+      "page_url": "https://good-ux.example.com/",
+      "safe_page_id": "page_00_home",
+      "status": "completed",
+      "page_metadata": {
+        "title": "منصة أساس الممتازة",
+        "language": "ar",
+        "dir": "rtl"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "مرحباً بكم في منصتنا"
+        },
+        {
+          "level": 2,
+          "text": "خدماتنا الذكية"
+        },
+        {
+          "level": 3,
+          "text": "ميزات المنصة"
+        }
+      ],
+      "paragraphs": [
+        {
+          "text": "نقدم حلولاً متكاملة لتحليل المواقع الإلكترونية بالذكاء الاصطناعي وبأعلى معايير الجودة.",
+          "word_count": 12
+        }
+      ],
+      "desktop_screenshots": [
+        {
+          "viewport_profile": "desktop",
+          "screenshot_type": "viewport",
+          "file_path": "C:\\Users\\mahmoodSaeed\\.gemini\\antigravity\\scratch\\site-dna\\tests\\fixtures\\ux_ui\\fixture_a_good_ux\\runs\\crawl-a\\visual\\vis-a\\pages\\p1\\desktop_viewport.png",
+          "relative_path": "pages/p1/desktop_viewport.png",
+          "file_size_bytes": 4789,
+          "width_px": 1280,
+          "height_px": 800,
+          "sha256": "d78b030ebc8a972c823c8081326537ea44f358d376f6662fe9acbf31676cc405",
+          "success": true
+        }
+      ],
+      "mobile_screenshots": [
+        {
+          "viewport_profile": "mobile",
+          "screenshot_type": "viewport",
+          "file_path": "C:\\Users\\mahmoodSaeed\\.gemini\\antigravity\\scratch\\site-dna\\tests\\fixtures\\ux_ui\\fixture_a_good_ux\\runs\\crawl-a\\visual\\vis-a\\pages\\p1\\mobile_viewport.png",
+          "relative_path": "pages/p1/mobile_viewport.png",
+          "file_size_bytes": 2831,
+          "width_px": 390,
+          "height_px": 844,
+          "sha256": "c5b916a2aae0700f7ef0b2b1dd220da1432f68495f12f5285f6f8a973bb733c8",
+          "success": true
+        }
+      ],
+      "dom_elements": [
+        {
+          "element_id": "btn-cta-1",
+          "tag_name": "button",
+          "dom_path": "body > header > button",
+          "classes": [
+            "cta-btn",
+            "primary"
+          ],
+          "text_excerpt": "ابدأ الآن مجاناً",
+          "semantic_role": "button",
+          "accessible_name": "ابدأ الآن مجاناً",
+          "visible": true,
+          "bounding_box": {
+            "x": 100,
+            "y": 200,
+            "width": 160,
+            "height": 48
+          }
+        },
+        {
+          "element_id": "link-nav-1",
+          "tag_name": "a",
+          "dom_path": "body > nav > a",
+          "classes": [
+            "nav-link"
+          ],
+          "text_excerpt": "تواصل معنا",
+          "semantic_role": "link",
+          "accessible_name": "تواصل معنا",
+          "visible": true,
+          "bounding_box": {
+            "x": 300,
+            "y": 20,
+            "width": 100,
+            "height": 44
+          }
+        }
+      ],
+      "responsive_observations": [
+        {
+          "observation_type": "mobile_overflow",
+          "status": "passed",
+          "description": "No horizontal overflow detected"
+        },
+        {
+          "observation_type": "navigation_collapse",
+          "status": "passed",
+          "description": "Mobile menu button present"
+        }
+      ],
+      "evidence_records": [
+        {
+          "evidence_id": "EV-001",
+          "crawl_run_id": "crawl-a",
+          "visual_run_id": "vis-a",
+          "page_url": "https://good-ux.example.com/",
+          "viewport_profile": "desktop",
+          "evidence_category": "dom_element",
+          "confidence_category": "observed",
+          "field_reference": "dom_elements[0]",
+          "observed_value": "Primary CTA button",
+          "collection_method": "dom_inspection"
+        }
+      ]
+    },
+    {
+      "page_url": "https://good-ux.example.com/contact",
+      "safe_page_id": "page_01_contact",
+      "status": "completed",
+      "page_metadata": {
+        "title": "تواصل معنا",
+        "language": "ar",
+        "dir": "rtl"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "تواصل مع فريق الدعم"
+        },
+        {
+          "level": 2,
+          "text": "نموذج المراسلة"
+        }
+      ],
+      "paragraphs": [
+        {
+          "text": "يسعدنا الرد على جميع استفساراتكم وملاحظاتكم خلال أوقات العمل الرسمية.",
+          "word_count": 10
+        }
+      ],
+      "desktop_screenshots": [
+        {
+          "viewport_profile": "desktop",
+          "screenshot_type": "viewport",
+          "file_path": "C:\\Users\\mahmoodSaeed\\.gemini\\antigravity\\scratch\\site-dna\\tests\\fixtures\\ux_ui\\fixture_a_good_ux\\runs\\crawl-a\\visual\\vis-a\\pages\\p2\\desktop_viewport.png",
+          "relative_path": "pages/p2/desktop_viewport.png",
+          "file_size_bytes": 4789,
+          "width_px": 1280,
+          "height_px": 800,
+          "sha256": "d78b030ebc8a972c823c8081326537ea44f358d376f6662fe9acbf31676cc405",
+          "success": true
+        }
+      ],
+      "mobile_screenshots": [
+        {
+          "viewport_profile": "mobile",
+          "screenshot_type": "viewport",
+          "file_path": "C:\\Users\\mahmoodSaeed\\.gemini\\antigravity\\scratch\\site-dna\\tests\\fixtures\\ux_ui\\fixture_a_good_ux\\runs\\crawl-a\\visual\\vis-a\\pages\\p2\\mobile_viewport.png",
+          "relative_path": "pages/p2/mobile_viewport.png",
+          "file_size_bytes": 2831,
+          "width_px": 390,
+          "height_px": 844,
+          "sha256": "c5b916a2aae0700f7ef0b2b1dd220da1432f68495f12f5285f6f8a973bb733c8",
+          "success": true
+        }
+      ],
+      "dom_elements": [
+        {
+          "element_id": "btn-submit-1",
+          "tag_name": "button",
+          "dom_path": "body > form > button",
+          "classes": [
+            "submit-btn"
+          ],
+          "text_excerpt": "إرسال الرسالة",
+          "semantic_role": "button",
+          "accessible_name": "إرسال الرسالة",
+          "visible": true,
+          "bounding_box": {
+            "x": 50,
+            "y": 400,
+            "width": 140,
+            "height": 48
+          }
+        }
+      ],
+      "responsive_observations": [
+        {
+          "observation_type": "mobile_overflow",
+          "status": "passed",
+          "description": "No horizontal overflow detected"
+        }
+      ],
+      "evidence_records": [
+        {
+          "evidence_id": "EV-002",
+          "crawl_run_id": "crawl-a",
+          "visual_run_id": "vis-a",
+          "page_url": "https://good-ux.example.com/contact",
+          "viewport_profile": "desktop",
+          "evidence_category": "dom_element",
+          "confidence_category": "observed",
+          "field_reference": "dom_elements[0]",
+          "observed_value": "Submit button",
+          "collection_method": "dom_inspection"
+        }
+      ]
+    }
+  ]
+}

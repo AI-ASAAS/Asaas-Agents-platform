@@ -1,0 +1,345 @@
+{
+  "schema_version": "1.0",
+  "analysis_run_id": "ux-9a58f2a3d75e",
+  "crawl_run_id": "crawl-a",
+  "visual_run_id": "vis-a",
+  "site_url": "https://good-ux.example.com",
+  "model_name": "gemini-3.6-flash (deterministic fallback)",
+  "analysis_status": "completed",
+  "ai_analysis_completed": false,
+  "deterministic_analysis_completed": true,
+  "fallback_reason": "Offline mode requested or no API key",
+  "from_cache": false,
+  "generated_at": "2026-11-07T20:14:37.932160Z",
+  "summary_arabic": "أظهر تدقيق تجربة وسهولة الاستخدام لموقع https://good-ux.example.com مؤشراً إجمالياً قدره 100.0/100. شمل التدقيق فحص 2 صفحة، مع رصد 0 ملاحظة موثقة بالأدلة وتقديم 0 توصية تحسين قابلة للتنفيذ المباشر.",
+  "summary_english": "UX/UI audit of https://good-ux.example.com achieved an overall usability index of 100.0/100. The assessment evaluated 2 pages, discovering 0 validated findings and formulating 0 prioritized, actionable recommendations.",
+  "overall_score": 100.0,
+  "score_explanations": [
+    {
+      "dimension_name": "Navigation & Information Architecture",
+      "weight": 0.2,
+      "score": 100.0,
+      "status": "assessed",
+      "explanation": "تم احتساب النتيجة (100.0/100) استناداً إلى 0 ملاحظة موثقة بالأدلة. وضوح بنية التنقل، وضوح التسميات، سهولة الوصول للصفحات، وترابط المسارات.",
+      "key_positive_factors": [
+        "أداء وتوافق ممتاز مع معايير وضوح بنية التنقل، وضوح التسميات، سهولة الوصول للصفحات، وترابط المسارات."
+      ],
+      "key_negative_factors": [],
+      "supporting_finding_ids": []
+    },
+    {
+      "dimension_name": "Interaction & CTA Clarity",
+      "weight": 0.2,
+      "score": 100.0,
+      "status": "assessed",
+      "explanation": "تم احتساب النتيجة (100.0/100) استناداً إلى 0 ملاحظة موثقة بالأدلة. بروز أزرار الإجراء الرئيسي، معقولية مساحات النقر، وتمايز العناصر التفاعلية.",
+      "key_positive_factors": [
+        "أداء وتوافق ممتاز مع معايير بروز أزرار الإجراء الرئيسي، معقولية مساحات النقر، وتمايز العناصر التفاعلية."
+      ],
+      "key_negative_factors": [],
+      "supporting_finding_ids": []
+    },
+    {
+      "dimension_name": "Content Usability",
+      "weight": 0.15,
+      "score": 100.0,
+      "status": "assessed",
+      "explanation": "تم احتساب النتيجة (100.0/100) استناداً إلى 0 ملاحظة موثقة بالأدلة. قابلية المحتوى للمسح السريع، وضوح العناوين، توازن الفقرات، ودعم الاتجاه العربي.",
+      "key_positive_factors": [
+        "أداء وتوافق ممتاز مع معايير قابلية المحتوى للمسح السريع، وضوح العناوين، توازن الفقرات، ودعم الاتجاه العربي."
+      ],
+      "key_negative_factors": [],
+      "supporting_finding_ids": []
+    },
+    {
+      "dimension_name": "Mobile Experience",
+      "weight": 0.2,
+      "score": 100.0,
+      "status": "assessed",
+      "explanation": "تم احتساب النتيجة (100.0/100) استناداً إلى 0 ملاحظة موثقة بالأدلة. سلامة العرض على الجوال، انعدام الفائض الأفقي، وملاءمة أهداف اللمس بالإبهام.",
+      "key_positive_factors": [
+        "أداء وتوافق ممتاز مع معايير سلامة العرض على الجوال، انعدام الفائض الأفقي، وملاءمة أهداف اللمس بالإبهام."
+      ],
+      "key_negative_factors": [],
+      "supporting_finding_ids": []
+    },
+    {
+      "dimension_name": "Forms & Task Support",
+      "weight": 0.1,
+      "score": 100.0,
+      "status": "assessed",
+      "explanation": "تم احتساب النتيجة (100.0/100) استناداً إلى 0 ملاحظة موثقة بالأدلة. وضوح تسميات الحقول، تفادي الاعتماد الحصري على Placeholder، ووضوح أزرار الإرسال.",
+      "key_positive_factors": [
+        "أداء وتوافق ممتاز مع معايير وضوح تسميات الحقول، تفادي الاعتماد الحصري على Placeholder، ووضوح أزرار الإرسال."
+      ],
+      "key_negative_factors": [],
+      "supporting_finding_ids": []
+    },
+    {
+      "dimension_name": "Accessibility Checks",
+      "weight": 0.15,
+      "score": 100.0,
+      "status": "assessed",
+      "explanation": "تم احتساب النتيجة (100.0/100) استناداً إلى 0 ملاحظة موثقة بالأدلة. وسوم الوصول للصور والأزرار، تدرج العناوين الهرمي، ونسب التباين اللوني WCAG AA.",
+      "key_positive_factors": [
+        "أداء وتوافق ممتاز مع معايير وسوم الوصول للصور والأزرار، تدرج العناوين الهرمي، ونسب التباين اللوني WCAG AA."
+      ],
+      "key_negative_factors": [],
+      "supporting_finding_ids": []
+    }
+  ],
+  "navigation_assessment": {
+    "links_count": 3,
+    "unique_destinations_count": 3,
+    "reachable_pages": [
+      "https://good-ux.example.com/contact",
+      "https://good-ux.example.com/"
+    ],
+    "isolated_pages": [],
+    "max_navigation_depth": 1,
+    "has_breadcrumbs": false,
+    "has_footer_nav": false,
+    "ambiguous_labels": [],
+    "duplicate_labels": [],
+    "graph_edges": [
+      {
+        "source": "https://good-ux.example.com/",
+        "target": "https://good-ux.example.com/contact"
+      },
+      {
+        "source": "https://good-ux.example.com/contact",
+        "target": "https://good-ux.example.com/"
+      }
+    ],
+    "findings": []
+  },
+  "interaction_assessment": {
+    "total_buttons": 2,
+    "total_links": 1,
+    "cta_candidates": [
+      {
+        "page_url": "https://good-ux.example.com/",
+        "text": "ابدأ الآن مجاناً",
+        "tag": "button",
+        "width": 160.0,
+        "height": 48.0
+      },
+      {
+        "page_url": "https://good-ux.example.com/",
+        "text": "تواصل معنا",
+        "tag": "a",
+        "width": 100.0,
+        "height": 44.0
+      }
+    ],
+    "interactive_elements": [
+      {
+        "page_url": "https://good-ux.example.com/",
+        "tag": "button",
+        "role": "button",
+        "text": "ابدأ الآن مجاناً",
+        "width": 160.0,
+        "height": 48.0,
+        "has_label": true
+      },
+      {
+        "page_url": "https://good-ux.example.com/",
+        "tag": "a",
+        "role": "link",
+        "text": "تواصل معنا",
+        "width": 100.0,
+        "height": 44.0,
+        "has_label": true
+      },
+      {
+        "page_url": "https://good-ux.example.com/contact",
+        "tag": "button",
+        "role": "button",
+        "text": "إرسال الرسالة",
+        "width": 140.0,
+        "height": 48.0,
+        "has_label": true
+      }
+    ],
+    "small_touch_targets": [],
+    "unlabeled_controls": [],
+    "findings": []
+  },
+  "forms_assessment": {
+    "forms_detected": 2,
+    "total_fields": 4,
+    "unlabeled_fields": [],
+    "placeholder_only_fields": [],
+    "missing_submit_buttons": [],
+    "form_summaries": [
+      {
+        "page_url": "https://good-ux.example.com/",
+        "action": "/subscribe",
+        "method": "POST",
+        "fields_count": 2,
+        "has_submit": true
+      },
+      {
+        "page_url": "https://good-ux.example.com/contact",
+        "action": "/send",
+        "method": "POST",
+        "fields_count": 2,
+        "has_submit": true
+      }
+    ],
+    "findings": []
+  },
+  "responsive_assessment": {
+    "horizontal_overflow_detected": false,
+    "overflow_pages": [],
+    "clipped_elements_count": 0,
+    "mobile_navigation_collapsed": true,
+    "undersized_touch_targets": [],
+    "findings": []
+  },
+  "accessibility_assessment": {
+    "accessible_name_issues": [],
+    "heading_hierarchy_valid": true,
+    "heading_issues": [],
+    "contrast_issues": [],
+    "keyboard_focusable_count": 3,
+    "missing_aria_labels": [
+      {
+        "page_url": "https://good-ux.example.com/",
+        "element": "button",
+        "issue": "Button has no readable text or aria-label"
+      },
+      {
+        "page_url": "https://good-ux.example.com/contact",
+        "element": "button",
+        "issue": "Button has no readable text or aria-label"
+      }
+    ],
+    "findings": []
+  },
+  "content_assessment": {
+    "heading_count": 5,
+    "average_paragraph_length": 0.0,
+    "rtl_supported": true,
+    "scanability_score": 100.0,
+    "repeated_labels": [],
+    "findings": []
+  },
+  "user_journeys": [
+    {
+      "journey_id": "JRN-01",
+      "goal": "الوصول إلى صفحة التواصل أو الدعم (Contact / Support)",
+      "starting_page": "https://good-ux.example.com/",
+      "target_page": "https://good-ux.example.com/contact",
+      "route": [
+        "https://good-ux.example.com/",
+        "https://good-ux.example.com/contact"
+      ],
+      "transitions_count": 1,
+      "missing_steps": [],
+      "status": "graph_derived",
+      "potential_friction": "مسار مباشر وسلس من خطوة واحدة انطلاقاً من الصفحة الرئيسية.",
+      "supporting_link_text": [
+        "تواصل معنا"
+      ]
+    },
+    {
+      "journey_id": "JRN-02",
+      "goal": "استكشاف الخدمات أو المنتجات (Services / Products)",
+      "starting_page": "https://good-ux.example.com/",
+      "target_page": "غير متوفر في العينة المفحوصة",
+      "route": [
+        "https://good-ux.example.com/"
+      ],
+      "transitions_count": 0,
+      "missing_steps": [
+        "لم يتم العثور على صفحة استكشاف الخدمات أو المنتجات (Services / Products) في العينة المستكشفة"
+      ],
+      "status": "not_testable",
+      "potential_friction": "غياب مسار واضح للوصول إلى هذه الوجهة من الصفحة الرئيسية.",
+      "supporting_link_text": []
+    },
+    {
+      "journey_id": "JRN-03",
+      "goal": "التعرف على معلومات المؤسسة أو من نحن (About Us)",
+      "starting_page": "https://good-ux.example.com/",
+      "target_page": "https://good-ux.example.com/contact",
+      "route": [
+        "https://good-ux.example.com/",
+        "https://good-ux.example.com/contact"
+      ],
+      "transitions_count": 1,
+      "missing_steps": [],
+      "status": "graph_derived",
+      "potential_friction": "مسار مباشر وسلس من خطوة واحدة انطلاقاً من الصفحة الرئيسية.",
+      "supporting_link_text": [
+        "تواصل معنا"
+      ]
+    },
+    {
+      "journey_id": "JRN-04",
+      "goal": "الاطلاع على باقات الأسعار أو الاشتراك (Pricing / Plans)",
+      "starting_page": "https://good-ux.example.com/",
+      "target_page": "غير متوفر في العينة المفحوصة",
+      "route": [
+        "https://good-ux.example.com/"
+      ],
+      "transitions_count": 0,
+      "missing_steps": [
+        "لم يتم العثور على صفحة الاطلاع على باقات الأسعار أو الاشتراك (Pricing / Plans) في العينة المستكشفة"
+      ],
+      "status": "not_testable",
+      "potential_friction": "غياب مسار واضح للوصول إلى هذه الوجهة من الصفحة الرئيسية.",
+      "supporting_link_text": []
+    }
+  ],
+  "findings": [],
+  "rejected_findings": [],
+  "recommendations": [],
+  "evidence_index": [
+    {
+      "evidence_id": "EV-001",
+      "evidence_category": "dom_element",
+      "field_reference": "dom_elements[0]",
+      "page_url": "https://good-ux.example.com/",
+      "viewport_profile": "desktop",
+      "screenshot_reference": null,
+      "checksum": null
+    },
+    {
+      "evidence_id": "EV-002",
+      "evidence_category": "dom_element",
+      "field_reference": "dom_elements[0]",
+      "page_url": "https://good-ux.example.com/contact",
+      "viewport_profile": "desktop",
+      "screenshot_reference": null,
+      "checksum": null
+    }
+  ],
+  "limitations_arabic": [
+    "تعذر استكمال التحليل المعمق بالذكاء الاصطناعي بسبب قيود مزود النموذج (Offline mode requested or no API key). النتائج الحالية تقتصر على الفحوص والقياسات الحتمية المكتملة فعلياً.",
+    "التقييم يعتمد حصراً على الأدلة المقاسة ولقطات الشاشة المستخرجة في المرحلتين 02 و03 دون محاكاة تفاعلية مغيرة لحالة الخادم.",
+    "فحوص إمكانية الوصول آلية جزئية وتغطي المعايير القابلة للبرمجة الحتمية (WCAG 2.1/2.2 AA) دون استبدال التدقيق البشري الشامل.",
+    "تم تحييد بعد النماذج للمواقع الخالية تماماً من حقول الإدخال لتفادي معاقبة المواقع التعريفية دون مبرر.",
+    "فحص مسارات المستخدم (User Journeys) مشتق تحليلياً من شبكة الروابط المستكشفة في حدود الصفحات المفحوصة."
+  ],
+  "statistics": {
+    "pages_analyzed": 2,
+    "viewports_analyzed": 4,
+    "screenshots_processed": 4,
+    "interactive_elements_audited": 3,
+    "forms_audited": 2,
+    "journeys_mapped": 4,
+    "total_findings": 0,
+    "validated_findings": 0,
+    "rejected_findings": 0,
+    "recommendations_count": 0,
+    "duration_ms": 14.25,
+    "model_name": "gemini-3.6-flash (deterministic fallback)",
+    "ai_analysis_completed": false,
+    "from_cache": false,
+    "quota_exhausted": false
+  },
+  "report_markdown_path": "tests\\fixtures\\ux_ui\\fixture_a_good_ux\\runs\\crawl-a\\visual\\vis-a\\analysis\\ux\\ux-9a58f2a3d75e\\report.md",
+  "analysis_json_path": null
+}

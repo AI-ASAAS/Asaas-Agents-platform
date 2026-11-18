@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-b",
+  "status": "completed",
+  "website_info": {
+    "initial_url": "https://vague.example.com",
+    "canonical_origin": "https://vague.example.com",
+    "declared_language": "ar"
+  },
+  "pages": [
+    {
+      "url": "https://vague.example.com/",
+      "final_url": "https://vague.example.com/",
+      "status_code": 200,
+      "depth": 0,
+      "category": "home",
+      "metadata": {
+        "title": "مرحباً بكم",
+        "language": "ar",
+        "dir": "rtl"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "مرحباً بكم في موقعنا"
+        }
+      ],
+      "main_content_text": "نحن نسعى دائماً لتقديم الأفضل لعملائنا في كل مكان وزمان.",
+      "word_count": 12,
+      "navigation_links": [
+        {
+          "url": "https://vague.example.com/page2",
+          "text": "اضغط هنا",
+          "is_internal": true
+        }
+      ],
+      "buttons": [
+        "اضغط هنا"
+      ],
+      "images": [],
+      "forms": []
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EV-B01",
+      "run_id": "crawl-b",
+      "source_url": "https://vague.example.com/",
+      "evidence_type": "observed",
+      "field_reference": "h1",
+      "exact_value": "مرحباً بكم في موقعنا"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-a",
+  "status": "completed",
+  "website_info": {
+    "initial_url": "https://good-ux.example.com",
+    "canonical_origin": "https://good-ux.example.com",
+    "declared_language": "ar"
+  },
+  "pages": [
+    {
+      "url": "https://good-ux.example.com/",
+      "final_url": "https://good-ux.example.com/",
+      "depth": 0,
+      "status_code": 200,
+      "metadata": {
+        "title": "منصة أساس الممتازة",
+        "description": "تجربة مستخدم مثالية",
+        "language": "ar",
+        "dir": "rtl"
+      },
+      "navigation_links": [
+        {
+          "url": "https://good-ux.example.com/contact",
+          "text": "تواصل معنا"
+        },
+        {
+          "url": "https://good-ux.example.com/about",
+          "text": "من نحن"
+        }
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "مرحباً بكم في منصتنا"
+        },
+        {
+          "level": 2,
+          "text": "خدماتنا الذكية"
+        },
+        {
+          "level": 3,
+          "text": "ميزات المنصة"
+        }
+      ],
+      "paragraphs": [
+        {
+          "text": "نقدم حلولاً متكاملة لتحليل المواقع الإلكترونية بالذكاء الاصطناعي وبأعلى معايير الجودة.",
+          "word_count": 12
+        }
+      ],
+      "forms": [
+        {
+          "action": "/subscribe",
+          "method": "POST",
+          "input_names": [
+            "email",
+            "name"
+          ],
+          "has_submit_button": true
+        }
+      ]
+    },
+    {
+      "url": "https://good-ux.example.com/contact",
+      "final_url": "https://good-ux.example.com/contact",
+      "depth": 1,
+      "status_code": 200,
+      "metadata": {
+        "title": "تواصل معنا",
+        "description": "صفحة التواصل",
+        "language": "ar",
+        "dir": "rtl"
+      },
+      "navigation_links": [
+        {
+          "url": "https://good-ux.example.com/",
+          "text": "الرئيسية"
+        }
+      ],
+      "headings": [
+        {
+          "level": 1,
+          "text": "تواصل مع فريق الدعم"
+        },
+        {
+          "level": 2,
+          "text": "نموذج المراسلة"
+        }
+      ],
+      "paragraphs": [
+        {
+          "text": "يسعدنا الرد على جميع استفساراتكم وملاحظاتكم خلال أوقات العمل الرسمية.",
+          "word_count": 10
+        }
+      ],
+      "forms": [
+        {
+          "action": "/send",
+          "method": "POST",
+          "input_names": [
+            "fullname",
+            "message"
+          ],
+          "has_submit_button": true
+        }
+      ]
+    }
+  ]
+}

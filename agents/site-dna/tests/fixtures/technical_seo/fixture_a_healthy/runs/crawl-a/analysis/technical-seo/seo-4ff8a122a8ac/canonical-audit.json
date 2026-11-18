@@ -1,0 +1,11 @@
+{
+  "missing_canonical_count": 0,
+  "self_referencing_count": 2,
+  "cross_page_canonical_count": 0,
+  "cross_domain_canonical_count": 0,
+  "conflicting_canonicals_count": 0,
+  "evidence_ids": [
+    "EV-001"
+  ],
+  "findings": []
+}

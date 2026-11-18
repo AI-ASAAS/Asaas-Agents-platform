@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "crawl_run_id": "crawl-h",
+  "visual_run_id": "vis-h",
+  "status": "completed",
+  "target_origin": "https://heavy.example.com",
+  "pages": [
+    {
+      "page_url": "https://heavy.example.com/",
+      "safe_page_id": "page_00_heavy",
+      "status": "completed",
+      "desktop_screenshots": [],
+      "mobile_screenshots": [],
+      "dom_elements": [],
+      "computed_styles": [],
+      "colors": [],
+      "typography": [],
+      "layout_records": [],
+      "responsive_observations": [],
+      "evidence_records": [],
+      "render_errors": []
+    }
+  ],
+  "statistics": {
+    "total_duration_ms": 4800.0
+  }
+}

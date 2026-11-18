@@ -1,0 +1,205 @@
+{
+  "total_pages": 3,
+  "page_types_distribution": {
+    "home": 1,
+    "services": 1,
+    "contact": 1
+  },
+  "total_word_count": 133,
+  "average_word_count_per_page": 44.3,
+  "languages_detected": [
+    "ar"
+  ],
+  "pages": [
+    {
+      "page_id": "p1_saas_example_com",
+      "page_url": "https://clear-saas.example.com/",
+      "page_type": "home",
+      "page_title": "منصة أساس لإدارة المشروعات بالذكاء الاصطناعي",
+      "meta_description": "منصة سحابية متطورة تساعد الفرق الرقمية على أتمتة إدارة المهام وزيادة الإنتاجية بنسبة 30%.",
+      "language": "ar",
+      "dir": "rtl",
+      "headings": [
+        {
+          "level": 1,
+          "text": "منصة إدارة المشروعات الذكية للفرق الرقمية"
+        },
+        {
+          "level": 2,
+          "text": "أتمتة ذكية تضمن تسريع إنجاز المشروعات"
+        },
+        {
+          "level": 2,
+          "text": "خدماتنا وحلولنا المتكاملة"
+        }
+      ],
+      "main_content": "نقدم لفرق العمل حلاً سحابياً متكاملاً لإدارة المهام ومتابعة المشروعات بذكاء اصطناعي تفاعلي. تمكّن المنصة الشركات من تحسين التنسيق وتوفير الوقت والجهد في إدارة العمليات اليومية. نوفر تجربة استخدام سهلة ودعماً فنياً على مدار الساعة للشركات الناشئة والمؤسسات الكبرى.",
+      "paragraphs": [
+        {
+          "text": "نقدم لفرق العمل حلاً سحابياً متكاملاً لإدارة المهام ومتابعة المشروعات بذكاء اصطناعي تفاعلي. تمكّن المنصة الشركات من تحسين التنسيق وتوفير الوقت والجهد في إدارة العمليات اليومية. نوفر تجربة استخدام سهلة ودعماً فنياً على مدار الساعة للشركات الناشئة والمؤسسات الكبرى.",
+          "word_count": 39
+        }
+      ],
+      "service_descriptions": [],
+      "product_descriptions": [],
+      "cta_candidates": [
+        {
+          "text": "ابدأ تجربتك المجانية لمدة 14 يوماً",
+          "type": "button",
+          "context": "buttons"
+        },
+        {
+          "text": "احجز عرضاً توضيحياً",
+          "type": "button",
+          "context": "buttons"
+        },
+        {
+          "text": "خدماتنا",
+          "type": "link",
+          "url": "https://clear-saas.example.com/services",
+          "is_internal": true
+        },
+        {
+          "text": "من نحن",
+          "type": "link",
+          "url": "https://clear-saas.example.com/about",
+          "is_internal": true
+        },
+        {
+          "text": "تواصل معنا",
+          "type": "link",
+          "url": "https://clear-saas.example.com/contact",
+          "is_internal": true
+        }
+      ],
+      "navigation_labels": [
+        "خدماتنا",
+        "من نحن",
+        "تواصل معنا"
+      ],
+      "trust_signal_candidates": [],
+      "word_count": 55,
+      "source_evidence_ids": [
+        "EV-A01",
+        "EV-A02"
+      ],
+      "extraction_limitations": []
+    },
+    {
+      "page_id": "p2_ple_com_services",
+      "page_url": "https://clear-saas.example.com/services",
+      "page_type": "services",
+      "page_title": "خدماتنا وحلولنا — أساس",
+      "meta_description": "استكشف خدمات أتمتة المشروعات وتحليلات الأداء المتقدمة.",
+      "language": "ar",
+      "dir": "rtl",
+      "headings": [
+        {
+          "level": 1,
+          "text": "خدمات وحلول منصة أساس"
+        },
+        {
+          "level": 2,
+          "text": "خدمة التحليلات التنبؤية للمشروعات"
+        },
+        {
+          "level": 2,
+          "text": "خدمة الأتمتة التفاعلية للمهام"
+        }
+      ],
+      "main_content": "تتضمن خدمة التحليلات التنبؤية قراءة مؤشرات الأداء وتوقع المخاطر قبل حدوثها. بينما تتيح خدمة الأتمتة التفاعلية توزيع المهام آلياً على أعضاء الفريق وفقاً للطاقة الاستيعابية.",
+      "paragraphs": [
+        {
+          "text": "تتضمن خدمة التحليلات التنبؤية قراءة مؤشرات الأداء وتوقع المخاطر قبل حدوثها. بينما تتيح خدمة الأتمتة التفاعلية توزيع المهام آلياً على أعضاء الفريق وفقاً للطاقة الاستيعابية.",
+          "word_count": 25
+        }
+      ],
+      "service_descriptions": [
+        "تتضمن خدمة التحليلات التنبؤية قراءة مؤشرات الأداء وتوقع المخاطر قبل حدوثها. بينما تتيح خدمة الأتمتة التفاعلية توزيع المهام آلياً على أعضاء الفريق وفقاً للطاقة الاستيعابية."
+      ],
+      "product_descriptions": [],
+      "cta_candidates": [
+        {
+          "text": "اطلب الخدمة الآن",
+          "type": "button",
+          "context": "buttons"
+        },
+        {
+          "text": "الرئيسية",
+          "type": "link",
+          "url": "https://clear-saas.example.com/",
+          "is_internal": true
+        },
+        {
+          "text": "اطلب استشارة مجانية",
+          "type": "link",
+          "url": "https://clear-saas.example.com/contact",
+          "is_internal": true
+        }
+      ],
+      "navigation_labels": [
+        "الرئيسية",
+        "اطلب استشارة مجانية"
+      ],
+      "trust_signal_candidates": [],
+      "word_count": 48,
+      "source_evidence_ids": [],
+      "extraction_limitations": []
+    },
+    {
+      "page_id": "p3_mple_com_contact",
+      "page_url": "https://clear-saas.example.com/contact",
+      "page_type": "contact",
+      "page_title": "تواصل معنا — أساس",
+      "meta_description": "تواصل مع فريق الدعم الفني والمبيعات.",
+      "language": "ar",
+      "dir": "rtl",
+      "headings": [
+        {
+          "level": 1,
+          "text": "تواصل مع فريقنا"
+        }
+      ],
+      "main_content": "يسعدنا الرد على استفساراتكم عبر البريد الإلكتروني support@clear-saas.example.com أو الهاتف +966110000000. مقرنا الرياض، المملكة العربية السعودية.",
+      "paragraphs": [
+        {
+          "text": "يسعدنا الرد على استفساراتكم عبر البريد الإلكتروني support@clear-saas.example.com أو الهاتف +966110000000. مقرنا الرياض، المملكة العربية السعودية.",
+          "word_count": 16
+        }
+      ],
+      "service_descriptions": [],
+      "product_descriptions": [],
+      "cta_candidates": [
+        {
+          "text": "إرسال الرسالة",
+          "type": "button",
+          "context": "buttons"
+        },
+        {
+          "text": "الرئيسية",
+          "type": "link",
+          "url": "https://clear-saas.example.com/",
+          "is_internal": true
+        }
+      ],
+      "navigation_labels": [
+        "الرئيسية"
+      ],
+      "trust_signal_candidates": [
+        "support"
+      ],
+      "word_count": 30,
+      "source_evidence_ids": [],
+      "extraction_limitations": []
+    }
+  ],
+  "missing_descriptions_count": 0,
+  "headings_summary": {
+    "h1": 3,
+    "h2": 4,
+    "h3": 0,
+    "h4": 0,
+    "h5": 0,
+    "h6": 0
+  }
+}

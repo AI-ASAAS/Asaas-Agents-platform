@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-f",
+  "website_info": {
+    "initial_url": "https://structured.example.com",
+    "canonical_origin": "https://structured.example.com"
+  },
+  "pages": [
+    {
+      "url": "https://structured.example.com/valid",
+      "final_url": "https://structured.example.com/valid",
+      "status_code": 200,
+      "depth": 0,
+      "metadata": {
+        "title": "Valid Structured Data"
+      },
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Structured Example",
+          "url": "https://structured.example.com/"
+        }
+      ]
+    },
+    {
+      "url": "https://structured.example.com/missing-props",
+      "final_url": "https://structured.example.com/missing-props",
+      "status_code": 200,
+      "depth": 1,
+      "metadata": {
+        "title": "Incomplete Article Schema"
+      },
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Article"
+        }
+      ]
+    }
+  ],
+  "discovered_internal_links": [],
+  "evidence": [],
+  "errors": []
+}

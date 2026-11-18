@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-c",
+  "status": "completed",
+  "website_info": {
+    "initial_url": "https://site-c.com",
+    "canonical_origin": "https://site-c.com"
+  },
+  "pages": [
+    {
+      "url": "https://site-c.com/",
+      "final_url": "https://site-c.com/",
+      "depth": 0,
+      "status_code": 200,
+      "metadata": {}
+    }
+  ]
+}

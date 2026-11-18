@@ -1,0 +1,26 @@
+{
+  "EV-A01": {
+    "id": "EV-A01",
+    "run_id": "crawl-a",
+    "source_url": "https://clear-saas.example.com/",
+    "final_url": null,
+    "evidence_type": "observed",
+    "field_reference": "h1",
+    "exact_value": "منصة إدارة المشروعات الذكية للفرق الرقمية",
+    "timestamp": "2026-11-08T08:34:13.607782Z",
+    "extraction_method": "extractor",
+    "metadata": {}
+  },
+  "EV-A02": {
+    "id": "EV-A02",
+    "run_id": "crawl-a",
+    "source_url": "https://clear-saas.example.com/",
+    "final_url": null,
+    "evidence_type": "observed",
+    "field_reference": "cta",
+    "exact_value": "ابدأ تجربتك المجانية لمدة 14 يوماً",
+    "timestamp": "2026-11-08T08:34:13.607782Z",
+    "extraction_method": "extractor",
+    "metadata": {}
+  }
+}

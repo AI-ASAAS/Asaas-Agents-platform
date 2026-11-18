@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-b",
+  "status": "completed",
+  "website_info": {
+    "initial_url": "https://site-b.com",
+    "canonical_origin": "https://site-b.com"
+  },
+  "pages": [
+    {
+      "url": "https://site-b.com/",
+      "final_url": "https://site-b.com/",
+      "depth": 0,
+      "status_code": 200,
+      "metadata": {}
+    },
+    {
+      "url": "https://site-b.com/services",
+      "final_url": "https://site-b.com/services",
+      "depth": 1,
+      "status_code": 200,
+      "metadata": {}
+    }
+  ]
+}

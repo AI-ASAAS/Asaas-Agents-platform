@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-d",
+  "website_info": {
+    "initial_url": "https://redirects.example.com",
+    "canonical_origin": "https://redirects.example.com"
+  },
+  "pages": [
+    {
+      "url": "https://redirects.example.com/",
+      "final_url": "https://redirects.example.com/",
+      "status_code": 200,
+      "depth": 0,
+      "metadata": {
+        "title": "Redirects Test Hub",
+        "canonical_url": "https://redirects.example.com/"
+      },
+      "navigation_links": [
+        {
+          "url": "https://redirects.example.com/broken-page",
+          "text": "Broken 404",
+          "is_internal": true
+        }
+      ]
+    },
+    {
+      "url": "https://redirects.example.com/temp-page",
+      "final_url": "https://redirects.example.com/target-page",
+      "status_code": 302,
+      "depth": 1,
+      "metadata": {
+        "title": "Redirected 302"
+      }
+    },
+    {
+      "url": "https://redirects.example.com/broken-page",
+      "final_url": "https://redirects.example.com/broken-page",
+      "status_code": 404,
+      "depth": 1,
+      "metadata": {
+        "title": "Page Not Found"
+      }
+    }
+  ],
+  "discovered_internal_links": [
+    "https://redirects.example.com/broken-page"
+  ],
+  "evidence": [],
+  "errors": []
+}

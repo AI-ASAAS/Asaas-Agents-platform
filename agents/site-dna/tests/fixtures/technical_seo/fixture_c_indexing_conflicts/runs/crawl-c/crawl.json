@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-c",
+  "website_info": {
+    "initial_url": "https://conflicts.example.com",
+    "canonical_origin": "https://conflicts.example.com",
+    "sitemap_found": true,
+    "sitemap_urls": [
+      "https://conflicts.example.com/",
+      "https://conflicts.example.com/noindex-page"
+    ],
+    "robots_txt_found": true,
+    "robots_txt_allowed": true
+  },
+  "pages": [
+    {
+      "url": "https://conflicts.example.com/",
+      "final_url": "https://conflicts.example.com/",
+      "status_code": 200,
+      "depth": 0,
+      "metadata": {
+        "title": "Home with Canonical Target pointing to Noindex",
+        "canonical_url": "https://conflicts.example.com/noindex-page",
+        "robots_meta": "index, follow"
+      },
+      "navigation_links": []
+    },
+    {
+      "url": "https://conflicts.example.com/noindex-page",
+      "final_url": "https://conflicts.example.com/noindex-page",
+      "status_code": 200,
+      "depth": 1,
+      "metadata": {
+        "title": "Noindex Page (Yet present in Sitemap)",
+        "robots_meta": "noindex, follow",
+        "canonical_url": "https://conflicts.example.com/noindex-page"
+      },
+      "navigation_links": []
+    }
+  ],
+  "discovered_internal_links": [],
+  "evidence": [],
+  "errors": []
+}

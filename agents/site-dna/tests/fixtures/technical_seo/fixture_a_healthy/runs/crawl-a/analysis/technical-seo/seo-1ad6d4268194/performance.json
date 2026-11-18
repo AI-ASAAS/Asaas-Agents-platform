@@ -1,0 +1,46 @@
+[
+  {
+    "metric_name": "average_fetch_duration",
+    "value": 175.0,
+    "unit": "ms",
+    "source": "navigation_timing",
+    "measurement_type": "local_browser",
+    "timestamp": "2026-11-08T11:17:23.536200Z",
+    "conditions": {
+      "pages_sampled": 2,
+      "concurrency": 1
+    },
+    "limitations": [
+      "Laboratory measurement from single collector location; not field RUM."
+    ]
+  },
+  {
+    "metric_name": "total_html_transfer_size",
+    "value": 0.0,
+    "unit": "bytes",
+    "source": "navigation_timing",
+    "measurement_type": "local_browser",
+    "timestamp": "2026-11-08T11:17:23.536200Z",
+    "conditions": {
+      "pages_sampled": 2
+    },
+    "limitations": [
+      "Represents raw HTML body size, excluding external CDN subresources."
+    ]
+  },
+  {
+    "metric_name": "playwright_render_duration",
+    "value": 750.0,
+    "unit": "ms",
+    "source": "playwright_collector",
+    "measurement_type": "laboratory",
+    "timestamp": "2026-11-08T11:17:23.536200Z",
+    "conditions": {
+      "browser": "chromium",
+      "headless": true
+    },
+    "limitations": [
+      "Includes full Playwright automation overhead and screenshot generation time."
+    ]
+  }
+]

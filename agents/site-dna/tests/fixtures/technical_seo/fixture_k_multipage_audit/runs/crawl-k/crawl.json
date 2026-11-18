@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-k",
+  "website_info": {
+    "initial_url": "https://multipage.example.com",
+    "canonical_origin": "https://multipage.example.com",
+    "declared_language": "ar",
+    "sitemap_found": true,
+    "sitemap_urls": [
+      "https://multipage.example.com/",
+      "https://multipage.example.com/about",
+      "https://multipage.example.com/services",
+      "https://multipage.example.com/blog",
+      "https://multipage.example.com/contact"
+    ],
+    "robots_txt_found": true,
+    "robots_txt_allowed": true
+  },
+  "pages": [
+    {
+      "url": "https://multipage.example.com/",
+      "final_url": "https://multipage.example.com/",
+      "status_code": 200,
+      "depth": 0,
+      "category": "home",
+      "metadata": {
+        "title": "الصفحة الرئيسية — بوابة المشروعات الرقمية",
+        "description": "بوابة متكاملة لإدارة وابتكار الحلول الرقمية الذكية.",
+        "canonical_url": "https://multipage.example.com/",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "language": "ar"
+      },
+      "navigation_links": [
+        {
+          "url": "https://multipage.example.com/about",
+          "text": "من نحن",
+          "is_internal": true
+        },
+        {
+          "url": "https://multipage.example.com/services",
+          "text": "خدماتنا",
+          "is_internal": true
+        }
+      ]
+    },
+    {
+      "url": "https://multipage.example.com/about",
+      "final_url": "https://multipage.example.com/about",
+      "status_code": 200,
+      "depth": 1,
+      "category": "about",
+      "metadata": {
+        "title": "الصفحة الرئيسية — بوابة المشروعات الرقمية",
+        "description": "تعرف على رؤية وفريق عمل بوابة المشروعات الرقمية.",
+        "canonical_url": "https://multipage.example.com/about",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "language": "ar"
+      },
+      "navigation_links": [
+        {
+          "url": "https://multipage.example.com/",
+          "text": "الرئيسية",
+          "is_internal": true
+        }
+      ]
+    },
+    {
+      "url": "https://multipage.example.com/services",
+      "final_url": "https://multipage.example.com/services",
+      "status_code": 200,
+      "depth": 1,
+      "category": "services",
+      "metadata": {
+        "title": "خدماتنا المتميزة في استشارات التحول الرقمي وتطوير الحلول السحابية للمؤسسات الحكومية والخاصة بالتفصيل الكامل الشامل بدون أي اختصار زائد عن اللزوم يتجاوز سبعين حرفاً",
+        "canonical_url": "https://multipage.example.com/services",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "language": "ar"
+      },
+      "navigation_links": [
+        {
+          "url": "https://multipage.example.com/",
+          "text": "الرئيسية",
+          "is_internal": true
+        }
+      ]
+    },
+    {
+      "url": "https://multipage.example.com/blog",
+      "final_url": "https://multipage.example.com/blog",
+      "status_code": 200,
+      "depth": 1,
+      "category": "blog",
+      "metadata": {
+        "title": "مدونة التقنية والابتكار — بوابة المشروعات",
+        "canonical_url": "https://multipage.example.com/blog",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "language": "ar"
+      },
+      "navigation_links": [
+        {
+          "url": "https://multipage.example.com/",
+          "text": "الرئيسية",
+          "is_internal": true
+        }
+      ]
+    },
+    {
+      "url": "https://multipage.example.com/contact",
+      "final_url": "https://multipage.example.com/contact",
+      "status_code": 200,
+      "depth": 1,
+      "category": "contact",
+      "metadata": {
+        "title": "تواصل معنا — فريق الدعم والاستشارات",
+        "canonical_url": "https://multipage.example.com/contact",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "language": "ar"
+      },
+      "navigation_links": [
+        {
+          "url": "https://multipage.example.com/",
+          "text": "الرئيسية",
+          "is_internal": true
+        }
+      ]
+    }
+  ],
+  "discovered_internal_links": [
+    "https://multipage.example.com/",
+    "https://multipage.example.com/about",
+    "https://multipage.example.com/services",
+    "https://multipage.example.com/blog",
+    "https://multipage.example.com/contact"
+  ],
+  "evidence": [],
+  "errors": []
+}

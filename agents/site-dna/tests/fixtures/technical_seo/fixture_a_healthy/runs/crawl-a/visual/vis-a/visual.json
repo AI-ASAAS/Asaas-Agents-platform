@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "crawl_run_id": "crawl-a",
+  "visual_run_id": "vis-a",
+  "status": "completed",
+  "target_origin": "https://healthy-seo.example.com",
+  "pages": [
+    {
+      "page_url": "https://healthy-seo.example.com/",
+      "safe_page_id": "page_00_home",
+      "status": "completed",
+      "desktop_screenshots": [],
+      "mobile_screenshots": [],
+      "dom_elements": [
+        {
+          "element_id": "el-1",
+          "tag_name": "h1",
+          "dom_path": "body > h1",
+          "text_excerpt": "حلول الذكاء الاصطناعي السحابية المتقدمة",
+          "bounding_box": {
+            "x": 10.0,
+            "y": 10.0,
+            "width": 500.0,
+            "height": 40.0
+          }
+        }
+      ],
+      "computed_styles": [],
+      "colors": [],
+      "typography": [],
+      "layout_records": [],
+      "responsive_observations": [],
+      "evidence_records": [],
+      "render_errors": []
+    }
+  ],
+  "statistics": {
+    "total_duration_ms": 750.0
+  }
+}

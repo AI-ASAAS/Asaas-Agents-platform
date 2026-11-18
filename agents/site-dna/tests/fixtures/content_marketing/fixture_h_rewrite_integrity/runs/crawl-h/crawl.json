@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-h",
+  "status": "completed",
+  "website_info": {
+    "initial_url": "https://cloud-backup.example.com",
+    "canonical_origin": "https://cloud-backup.example.com",
+    "declared_language": "ar"
+  },
+  "pages": [
+    {
+      "url": "https://cloud-backup.example.com/",
+      "final_url": "https://cloud-backup.example.com/",
+      "status_code": 200,
+      "depth": 0,
+      "category": "home",
+      "metadata": {
+        "title": "خدمة النسخ الاحتياطي السحابي المشفر",
+        "language": "ar",
+        "dir": "rtl"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "نسخ احتياطي يومي مشفر بمعيار AES-256"
+        }
+      ],
+      "main_content_text": "نقدم خدمة النسخ الاحتياطي التلقائي لقواعد البيانات والملفات بسعر 50 ريال شهرياً مع ضمان استرجاع البيانات خلال 60 دقيقة.",
+      "word_count": 28,
+      "navigation_links": [],
+      "buttons": [
+        "اشترك الآن"
+      ],
+      "images": [],
+      "forms": []
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EV-H01",
+      "run_id": "crawl-h",
+      "source_url": "https://cloud-backup.example.com/",
+      "evidence_type": "observed",
+      "field_reference": "h1",
+      "exact_value": "نسخ احتياطي يومي مشفر بمعيار AES-256"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "_comment": "Free tier and rate limit baseline definitions. Source: Official vendor pricing documents. Verify periodically.",
+  "last_verified": "2026-11-17",
+  "limits": {
+    "gemini": {
+      "source": "https://ai.google.dev/gemini-api/docs/rate-limits",
+      "default": { "rpm": 10, "tpm": 250000, "rpd": 20 },
+      "models": {
+        "gemini-2.0-flash": { "rpm": 15, "tpm": 1000000, "rpd": 200 },
+        "gemini-2.0-flash-exp": { "rpm": 10, "tpm": 250000, "rpd": 50 },
+        "gemini-2.5-flash": { "rpm": 10, "tpm": 250000, "rpd": 20 },
+        "gemini-1.5-flash": { "rpm": 15, "tpm": 250000, "rpd": 50 },
+        "gemini-1.5-pro": { "rpm": 2, "tpm": 32000, "rpd": 20 }
+      }
+    },
+    "openai": {
+      "source": "https://platform.openai.com/docs/guides/rate-limits",
+      "default": { "rpm": 500, "tpm": 200000, "rpd": null },
+      "models": {
+        "gpt-4o-mini": { "rpm": 500, "tpm": 200000, "rpd": null },
+        "gpt-4o": { "rpm": 500, "tpm": 30000, "rpd": null }
+      }
+    },
+    "anthropic": {
+      "source": "https://docs.anthropic.com/en/api/rate-limits",
+      "default": { "rpm": 50, "tpm": 40000, "rpd": null },
+      "models": {
+        "claude-3-5-haiku-20241022": { "rpm": 50, "tpm": 40000, "rpd": null },
+        "claude-3-5-haiku-latest": { "rpm": 50, "tpm": 40000, "rpd": null },
+        "claude-3-5-sonnet-20241022": { "rpm": 50, "tpm": 40000, "rpd": null },
+        "claude-3-5-sonnet-latest": { "rpm": 50, "tpm": 40000, "rpd": null }
+      }
+    },
+    "openrouter": {
+      "source": "https://openrouter.ai/docs/limits",
+      "default": { "rpm": 20, "tpm": null, "rpd": 50 },
+      "models": {
+        "meta-llama/llama-3.2-3b-instruct:free": { "rpm": 20, "tpm": null, "rpd": 50 },
+        "google/gemini-2.0-flash-exp:free": { "rpm": 20, "tpm": null, "rpd": 50 }
+      }
+    }
+  }
+}

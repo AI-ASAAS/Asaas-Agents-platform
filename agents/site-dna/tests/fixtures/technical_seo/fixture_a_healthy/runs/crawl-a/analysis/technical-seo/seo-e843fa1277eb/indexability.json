@@ -1,0 +1,14 @@
+{
+  "status": "potentially_indexable",
+  "noindex_count": 0,
+  "x_robots_tag_count": 0,
+  "conflicting_directives_count": 0,
+  "pages_with_directives": [
+    "https://healthy-seo.example.com/",
+    "https://healthy-seo.example.com/services"
+  ],
+  "evidence_ids": [
+    "EV-001"
+  ],
+  "findings": []
+}

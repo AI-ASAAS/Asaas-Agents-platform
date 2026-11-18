@@ -1,0 +1,11 @@
+{
+  "analysis_run_id": "cnt-904859c9e16d",
+  "crawl_run_id": "crawl-a",
+  "visual_run_id": null,
+  "target_origin": "https://clear-saas.example.com",
+  "analysis_status": "completed",
+  "overall_score": 98.0,
+  "model_name": "gemini-3.6-flash",
+  "execution_duration_ms": 5.7,
+  "created_at": "2026-11-08T13:18:44.676646+00:00"
+}

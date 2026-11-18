@@ -1,0 +1,52 @@
+[
+  {
+    "recommendation_id": "TR-01",
+    "title": "معالجة: Absence of Structured Data Markup on Service Page",
+    "related_finding_ids": [
+      "TS-AI01"
+    ],
+    "category": "Structured Data",
+    "affected_urls": [
+      "https://healthy-seo.example.com/services"
+    ],
+    "technical_problem": "The /services page does not implement JSON-LD structured data (such as Service or WebPage schema). While missing structured data is not an explicit technical error, schema markup helps search engines interpret page entity attributes more effectively.",
+    "supporting_evidence_ids": [
+      "EV-001"
+    ],
+    "proposed_fix": "Assess adding Service or WebPage structured data using JSON-LD to clearly define offered capabilities.",
+    "implementation_guidance": "تطبيق الإصلاح التقني في الخادم أو كود القوالب HTML، ثم التحقق عبر إرسال طلب فحص مباشر.",
+    "expected_technical_benefit": "التأثير على تجربة الزوار أو فاعلية الفهرسة.",
+    "estimated_impact": "low",
+    "estimated_effort": "medium",
+    "priority": "p3",
+    "verification_method": "inspection",
+    "limitations": [
+      "يتطلب التحقق النهائي فحص الاستجابة الحية عبر أداة فحص العناوين في Google Search Console."
+    ]
+  },
+  {
+    "recommendation_id": "TR-02",
+    "title": "معالجة: Unspecified Language and Internationalization Metadata",
+    "related_finding_ids": [
+      "TS-AI02"
+    ],
+    "category": "Internationalization",
+    "affected_urls": [
+      "https://healthy-seo.example.com/"
+    ],
+    "technical_problem": "Content on the site is written in Arabic, but explicit hreflang annotations were not detected in the provided page crawl data.",
+    "supporting_evidence_ids": [
+      "EV-001"
+    ],
+    "proposed_fix": "Verify that the HTML lang attribute is set to 'ar' and determine if multi-regional targeting via hreflang is necessary.",
+    "implementation_guidance": "تطبيق الإصلاح التقني في الخادم أو كود القوالب HTML، ثم التحقق عبر إرسال طلب فحص مباشر.",
+    "expected_technical_benefit": "التأثير على تجربة الزوار أو فاعلية الفهرسة.",
+    "estimated_impact": "low",
+    "estimated_effort": "medium",
+    "priority": "p3",
+    "verification_method": "inspection",
+    "limitations": [
+      "يتطلب التحقق النهائي فحص الاستجابة الحية عبر أداة فحص العناوين في Google Search Console."
+    ]
+  }
+]

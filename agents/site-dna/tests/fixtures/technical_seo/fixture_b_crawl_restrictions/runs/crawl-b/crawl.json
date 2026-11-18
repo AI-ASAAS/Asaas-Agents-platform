@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-b",
+  "website_info": {
+    "initial_url": "https://restricted.example.com",
+    "canonical_origin": "https://restricted.example.com",
+    "robots_txt_found": true,
+    "robots_txt_allowed": false
+  },
+  "pages": [
+    {
+      "url": "https://restricted.example.com/",
+      "final_url": "https://restricted.example.com/",
+      "status_code": 200,
+      "depth": 0,
+      "metadata": {
+        "title": "Restricted Portal Home",
+        "canonical_url": "https://restricted.example.com/"
+      },
+      "navigation_links": []
+    },
+    {
+      "url": "https://restricted.example.com/deep/level/one/two/three/four/page",
+      "final_url": "https://restricted.example.com/deep/level/one/two/three/four/page",
+      "status_code": 200,
+      "depth": 6,
+      "metadata": {
+        "title": "Deep Nested Page"
+      },
+      "navigation_links": []
+    }
+  ],
+  "discovered_internal_links": [],
+  "evidence": [],
+  "errors": []
+}

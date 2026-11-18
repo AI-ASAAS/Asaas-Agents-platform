@@ -1,0 +1,11 @@
+{
+  "analysis_run_id": "seo-4ac700b43e49",
+  "crawl_run_id": "crawl-a",
+  "visual_run_id": "vis-a",
+  "target_origin": "https://healthy-seo.example.com",
+  "analysis_status": "completed",
+  "overall_score": 100.0,
+  "model_name": "gemini-3.6-flash",
+  "execution_duration_ms": 3.08,
+  "created_at": "2026-11-08T10:01:59.817445+00:00"
+}

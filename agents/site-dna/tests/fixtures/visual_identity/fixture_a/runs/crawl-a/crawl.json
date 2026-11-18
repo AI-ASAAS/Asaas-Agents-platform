@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-a",
+  "status": "completed",
+  "website_info": {
+    "initial_url": "https://site-a.com",
+    "canonical_origin": "https://site-a.com",
+    "declared_language": "en"
+  },
+  "pages": [
+    {
+      "url": "https://site-a.com/",
+      "final_url": "https://site-a.com/",
+      "depth": 0,
+      "status_code": 200,
+      "metadata": {
+        "title": "Site A Home",
+        "description": "Home"
+      }
+    },
+    {
+      "url": "https://site-a.com/about",
+      "final_url": "https://site-a.com/about",
+      "depth": 1,
+      "status_code": 200,
+      "metadata": {
+        "title": "About Site A",
+        "description": "About"
+      }
+    }
+  ],
+  "statistics": {
+    "total_pages_visited": 2
+  }
+}

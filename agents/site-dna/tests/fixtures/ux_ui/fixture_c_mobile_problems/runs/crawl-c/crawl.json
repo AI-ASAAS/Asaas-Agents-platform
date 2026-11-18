@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-c",
+  "status": "completed",
+  "website_info": {
+    "initial_url": "https://mobile-fail.example.com",
+    "canonical_origin": "https://mobile-fail.example.com"
+  },
+  "pages": [
+    {
+      "url": "https://mobile-fail.example.com/",
+      "final_url": "https://mobile-fail.example.com/",
+      "depth": 0,
+      "status_code": 200
+    }
+  ]
+}

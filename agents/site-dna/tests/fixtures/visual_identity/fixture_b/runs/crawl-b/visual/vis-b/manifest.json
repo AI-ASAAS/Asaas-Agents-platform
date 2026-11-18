@@ -1,0 +1,291 @@
+{
+  "schema_version": "1.0",
+  "crawl_run_id": "crawl-b",
+  "visual_run_id": "vis-b",
+  "status": "completed",
+  "target_origin": "https://site-b.com",
+  "pages": [
+    {
+      "page_url": "https://site-b.com/",
+      "safe_page_id": "page_00_home",
+      "status": "completed",
+      "desktop_screenshots": [
+        {
+          "viewport_profile": "desktop",
+          "screenshot_type": "viewport",
+          "file_path": "C:\\Users\\mahmoodSaeed\\.gemini\\antigravity\\scratch\\site-dna\\tests\\fixtures\\visual_identity\\fixture_b\\runs\\crawl-b\\visual\\vis-b\\pages\\p1\\desktop_viewport.png",
+          "relative_path": "pages/p1/desktop_viewport.png",
+          "file_size_bytes": 4786,
+          "width_px": 1280,
+          "height_px": 800,
+          "sha256": "69a8645facae6cf05eb1d8166825c32e640310d55a5098e149d1a432bf1b8edf",
+          "success": true
+        }
+      ],
+      "mobile_screenshots": [
+        {
+          "viewport_profile": "mobile",
+          "screenshot_type": "viewport",
+          "file_path": "C:\\Users\\mahmoodSaeed\\.gemini\\antigravity\\scratch\\site-dna\\tests\\fixtures\\visual_identity\\fixture_b\\runs\\crawl-b\\visual\\vis-b\\pages\\p1\\mobile_viewport.png",
+          "relative_path": "pages/p1/mobile_viewport.png",
+          "file_size_bytes": 2170,
+          "width_px": 375,
+          "height_px": 667,
+          "sha256": "e3ae1e9eb8a98b93039f1ac92d5a417b204f39e8c36e993b22428a9bad8ee617",
+          "success": true
+        }
+      ],
+      "colors": [
+        {
+          "hex": "#ff0000",
+          "rgb": [
+            255,
+            0,
+            0
+          ],
+          "usage": "brand",
+          "occurrence_count": 5
+        },
+        {
+          "hex": "#00ff00",
+          "rgb": [
+            0,
+            255,
+            0
+          ],
+          "usage": "brand",
+          "occurrence_count": 5
+        },
+        {
+          "hex": "#0000ff",
+          "rgb": [
+            0,
+            0,
+            255
+          ],
+          "usage": "brand",
+          "occurrence_count": 5
+        },
+        {
+          "hex": "#ffff00",
+          "rgb": [
+            255,
+            255,
+            0
+          ],
+          "usage": "brand",
+          "occurrence_count": 5
+        },
+        {
+          "hex": "#ff00ff",
+          "rgb": [
+            255,
+            0,
+            255
+          ],
+          "usage": "brand",
+          "occurrence_count": 5
+        },
+        {
+          "hex": "#00ffff",
+          "rgb": [
+            0,
+            255,
+            255
+          ],
+          "usage": "brand",
+          "occurrence_count": 5
+        },
+        {
+          "hex": "#888888",
+          "rgb": [
+            136,
+            136,
+            136
+          ],
+          "usage": "text",
+          "occurrence_count": 10
+        },
+        {
+          "hex": "#777777",
+          "rgb": [
+            119,
+            119,
+            119
+          ],
+          "usage": "background",
+          "occurrence_count": 10
+        },
+        {
+          "hex": "#ffa500",
+          "rgb": [
+            255,
+            165,
+            0
+          ],
+          "usage": "brand",
+          "occurrence_count": 5
+        },
+        {
+          "hex": "#800080",
+          "rgb": [
+            128,
+            0,
+            128
+          ],
+          "usage": "brand",
+          "occurrence_count": 5
+        },
+        {
+          "hex": "#008000",
+          "rgb": [
+            0,
+            128,
+            0
+          ],
+          "usage": "brand",
+          "occurrence_count": 5
+        },
+        {
+          "hex": "#000080",
+          "rgb": [
+            0,
+            0,
+            128
+          ],
+          "usage": "brand",
+          "occurrence_count": 5
+        }
+      ],
+      "typography": [
+        {
+          "element_type": "h1",
+          "font_family": "Comic Sans MS",
+          "font_size_px": 24.0,
+          "font_weight": "400",
+          "line_height_px": 24.0
+        },
+        {
+          "element_type": "h2",
+          "font_family": "Papyrus",
+          "font_size_px": 28.0,
+          "font_weight": "700",
+          "line_height_px": 26.0
+        },
+        {
+          "element_type": "p",
+          "font_family": "Times New Roman",
+          "font_size_px": 16.0,
+          "font_weight": "400",
+          "line_height_px": 16.0
+        }
+      ],
+      "responsive_observations": [
+        {
+          "observation_type": "horizontal_overflow",
+          "status": "failed",
+          "description": "Horizontal overflow of 120px detected",
+          "mobile_value": {
+            "scroll_width": 495,
+            "viewport_width": 375
+          }
+        }
+      ],
+      "evidence_records": [
+        {
+          "evidence_id": "ev-b-1",
+          "crawl_run_id": "crawl-b",
+          "visual_run_id": "vis-b",
+          "page_url": "https://site-b.com/",
+          "viewport_profile": "desktop",
+          "evidence_category": "screenshot",
+          "confidence_category": "observed",
+          "field_reference": "shot",
+          "observed_value": "C:\\Users\\mahmoodSaeed\\.gemini\\antigravity\\scratch\\site-dna\\tests\\fixtures\\visual_identity\\fixture_b\\runs\\crawl-b\\visual\\vis-b\\pages\\p1\\desktop_viewport.png",
+          "collection_method": "playwright"
+        }
+      ]
+    },
+    {
+      "page_url": "https://site-b.com/services",
+      "safe_page_id": "page_01_serv",
+      "status": "completed",
+      "desktop_screenshots": [
+        {
+          "viewport_profile": "desktop",
+          "screenshot_type": "viewport",
+          "file_path": "C:\\Users\\mahmoodSaeed\\.gemini\\antigravity\\scratch\\site-dna\\tests\\fixtures\\visual_identity\\fixture_b\\runs\\crawl-b\\visual\\vis-b\\pages\\p2\\desktop_viewport.png",
+          "relative_path": "pages/p2/desktop_viewport.png",
+          "file_size_bytes": 4788,
+          "width_px": 1280,
+          "height_px": 800,
+          "sha256": "97fe97eef52c2bb2e01007f7f2da25ed8a6413acdf646838bc0e3800a6ee10e1",
+          "success": true
+        }
+      ],
+      "mobile_screenshots": [
+        {
+          "viewport_profile": "mobile",
+          "screenshot_type": "viewport",
+          "file_path": "C:\\Users\\mahmoodSaeed\\.gemini\\antigravity\\scratch\\site-dna\\tests\\fixtures\\visual_identity\\fixture_b\\runs\\crawl-b\\visual\\vis-b\\pages\\p2\\mobile_viewport.png",
+          "relative_path": "pages/p2/mobile_viewport.png",
+          "file_size_bytes": 2170,
+          "width_px": 375,
+          "height_px": 667,
+          "sha256": "ad2942aaa530bea6e16ca7dc7bb337c8574dd28984e39b156b8411a765e52ab5",
+          "success": true
+        }
+      ],
+      "colors": [
+        {
+          "hex": "#123456",
+          "rgb": [
+            18,
+            52,
+            86
+          ],
+          "usage": "brand",
+          "occurrence_count": 5
+        },
+        {
+          "hex": "#654321",
+          "rgb": [
+            101,
+            67,
+            33
+          ],
+          "usage": "brand",
+          "occurrence_count": 5
+        }
+      ],
+      "typography": [
+        {
+          "element_type": "h1",
+          "font_family": "Arial",
+          "font_size_px": 32.0,
+          "font_weight": "400"
+        },
+        {
+          "element_type": "p",
+          "font_family": "Roboto",
+          "font_size_px": 14.0,
+          "font_weight": "300"
+        }
+      ],
+      "evidence_records": [
+        {
+          "evidence_id": "ev-b-2",
+          "crawl_run_id": "crawl-b",
+          "visual_run_id": "vis-b",
+          "page_url": "https://site-b.com/services",
+          "viewport_profile": "desktop",
+          "evidence_category": "screenshot",
+          "confidence_category": "observed",
+          "field_reference": "shot",
+          "observed_value": "C:\\Users\\mahmoodSaeed\\.gemini\\antigravity\\scratch\\site-dna\\tests\\fixtures\\visual_identity\\fixture_b\\runs\\crawl-b\\visual\\vis-b\\pages\\p2\\desktop_viewport.png",
+          "collection_method": "playwright"
+        }
+      ]
+    }
+  ]
+}

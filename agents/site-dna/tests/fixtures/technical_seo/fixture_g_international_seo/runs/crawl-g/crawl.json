@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-g",
+  "website_info": {
+    "initial_url": "https://global.example.com/ar",
+    "canonical_origin": "https://global.example.com",
+    "declared_language": "ar"
+  },
+  "pages": [
+    {
+      "url": "https://global.example.com/ar",
+      "final_url": "https://global.example.com/ar",
+      "status_code": 200,
+      "depth": 0,
+      "metadata": {
+        "title": "النسخة العربية للمنصة",
+        "language": "ar",
+        "canonical_url": "https://global.example.com/ar"
+      }
+    },
+    {
+      "url": "https://global.example.com/en",
+      "final_url": "https://global.example.com/en",
+      "status_code": 200,
+      "depth": 1,
+      "metadata": {
+        "title": "Global Platform English Version",
+        "language": "en",
+        "canonical_url": "https://global.example.com/en"
+      }
+    },
+    {
+      "url": "https://global.example.com/broken-lang",
+      "final_url": "https://global.example.com/broken-lang",
+      "status_code": 200,
+      "depth": 1,
+      "metadata": {
+        "title": "Page with missing language tag",
+        "language": null
+      }
+    }
+  ],
+  "discovered_internal_links": [],
+  "evidence": [],
+  "errors": []
+}

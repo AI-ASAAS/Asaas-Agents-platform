@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-a",
+  "website_info": {
+    "initial_url": "https://healthy-seo.example.com",
+    "canonical_origin": "https://healthy-seo.example.com",
+    "declared_language": "ar",
+    "sitemap_found": true,
+    "sitemap_urls": [
+      "https://healthy-seo.example.com/",
+      "https://healthy-seo.example.com/services"
+    ],
+    "robots_txt_found": true,
+    "robots_txt_allowed": true
+  },
+  "pages": [
+    {
+      "url": "https://healthy-seo.example.com/",
+      "final_url": "https://healthy-seo.example.com/",
+      "status_code": 200,
+      "depth": 0,
+      "category": "home",
+      "metadata": {
+        "title": "منصة أساس — حلول الذكاء الاصطناعي السحابية",
+        "description": "منصة رائدة في تقديم أدوات تحليل واستخبارات البيانات للشركات الرقمية.",
+        "canonical_url": "https://healthy-seo.example.com/",
+        "robots_meta": "index, follow",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "language": "ar"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "حلول الذكاء الاصطناعي السحابية المتقدمة"
+        },
+        {
+          "level": 2,
+          "text": "خدماتنا المتميزة"
+        }
+      ],
+      "main_content_text": "نقدم خدمات سحابية متقدمة في مجال تحليل البيانات وتطوير الواجهات الذكية.",
+      "word_count": 60,
+      "navigation_links": [
+        {
+          "url": "https://healthy-seo.example.com/services",
+          "text": "خدماتنا",
+          "is_internal": true
+        },
+        {
+          "url": "https://healthy-seo.example.com/contact",
+          "text": "اتصل بنا",
+          "is_internal": true
+        }
+      ],
+      "json_ld": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "ASAAS AI",
+          "url": "https://healthy-seo.example.com/",
+          "logo": "https://healthy-seo.example.com/logo.png"
+        }
+      ]
+    },
+    {
+      "url": "https://healthy-seo.example.com/services",
+      "final_url": "https://healthy-seo.example.com/services",
+      "status_code": 200,
+      "depth": 1,
+      "category": "services",
+      "metadata": {
+        "title": "خدمات الذكاء الاصطناعي وتطوير الحلول — أساس",
+        "description": "استكشف خدمات النماذج اللغوية والأتمتة الذكية للمؤسسات الكبرى.",
+        "canonical_url": "https://healthy-seo.example.com/services",
+        "robots_meta": "index, follow",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "language": "ar"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "خدماتنا المتخصصة"
+        }
+      ],
+      "main_content_text": "حلول متكاملة في أتمتة العمليات وتدقيق المواقع الإلكترونية والذكاء الاصطناعي.",
+      "word_count": 45,
+      "navigation_links": [
+        {
+          "url": "https://healthy-seo.example.com/",
+          "text": "الرئيسية",
+          "is_internal": true
+        }
+      ],
+      "json_ld": []
+    }
+  ],
+  "discovered_internal_links": [
+    "https://healthy-seo.example.com/",
+    "https://healthy-seo.example.com/services",
+    "https://healthy-seo.example.com/contact"
+  ],
+  "evidence": [
+    {
+      "id": "EV-001",
+      "run_id": "crawl-a",
+      "source_url": "https://healthy-seo.example.com/",
+      "evidence_type": "observed",
+      "field_reference": "page.title",
+      "exact_value": "منصة أساس — حلول الذكاء الاصطناعي السحابية",
+      "extraction_method": "html_parser"
+    }
+  ],
+  "errors": [],
+  "statistics": {
+    "total_pages_crawled": 2,
+    "total_duration_ms": 350.0
+  }
+}

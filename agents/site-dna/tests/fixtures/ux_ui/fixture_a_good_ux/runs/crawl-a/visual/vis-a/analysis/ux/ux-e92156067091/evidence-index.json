@@ -1,0 +1,20 @@
+[
+  {
+    "evidence_id": "EV-001",
+    "evidence_category": "dom_element",
+    "field_reference": "dom_elements[0]",
+    "page_url": "https://good-ux.example.com/",
+    "viewport_profile": "desktop",
+    "screenshot_reference": null,
+    "checksum": null
+  },
+  {
+    "evidence_id": "EV-002",
+    "evidence_category": "dom_element",
+    "field_reference": "dom_elements[0]",
+    "page_url": "https://good-ux.example.com/contact",
+    "viewport_profile": "desktop",
+    "screenshot_reference": null,
+    "checksum": null
+  }
+]

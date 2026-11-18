@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-d",
+  "status": "completed",
+  "website_info": {
+    "initial_url": "https://unsupported.example.com",
+    "canonical_origin": "https://unsupported.example.com",
+    "declared_language": "ar"
+  },
+  "pages": [
+    {
+      "url": "https://unsupported.example.com/",
+      "final_url": "https://unsupported.example.com/",
+      "status_code": 200,
+      "depth": 0,
+      "category": "home",
+      "metadata": {
+        "title": "الشركة الأولى عالمياً",
+        "language": "ar",
+        "dir": "rtl"
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "الشركة الأفضل دائماً والأولى عالمياً"
+        }
+      ],
+      "main_content_text": "خدماتنا مضمونة بنسبة 100% بدون أي أخطاء. لدينا أكثر من 50,000 عميل راضٍ و100% نجاح في جميع المشاريع.",
+      "word_count": 26,
+      "navigation_links": [],
+      "buttons": [
+        "اشترك الآن"
+      ],
+      "images": [],
+      "forms": []
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EV-D01",
+      "run_id": "crawl-d",
+      "source_url": "https://unsupported.example.com/",
+      "evidence_type": "observed",
+      "field_reference": "body",
+      "exact_value": "خدماتنا مضمونة بنسبة 100%"
+    }
+  ]
+}

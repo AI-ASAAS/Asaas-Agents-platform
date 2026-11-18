@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-h",
+  "website_info": {
+    "initial_url": "https://heavy.example.com",
+    "canonical_origin": "https://heavy.example.com"
+  },
+  "pages": [
+    {
+      "url": "https://heavy.example.com/",
+      "final_url": "https://heavy.example.com/",
+      "status_code": 200,
+      "depth": 0,
+      "metadata": {
+        "title": "Heavyweight Enterprise Portal",
+        "viewport": "width=device-width, initial-scale=1.0"
+      }
+    }
+  ],
+  "discovered_internal_links": [],
+  "evidence": [],
+  "errors": [],
+  "statistics": {
+    "total_pages_crawled": 1,
+    "total_duration_ms": 3200.0,
+    "total_bytes_fetched": 2800000
+  }
+}

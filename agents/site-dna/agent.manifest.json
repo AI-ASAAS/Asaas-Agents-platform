@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "slug": "site-dna",
+  "name": {
+    "ar": "بصمة الموقع (Site DNA)",
+    "en": "Site DNA"
+  },
+  "summary": {
+    "ar": "تحليل استخباراتي شامل ومتعدد الأبعاد للمواقع الإلكترونية يشمل تجربة المستخدم، السيو، الأمان، المحتوى، وإمكانية الوصول.",
+    "en": "Multi-dimensional website intelligence platform analyzing UX, SEO, security, content, accessibility, and executive reporting."
+  },
+  "description": {
+    "ar": "وكيل خدمة متكامل يعتمد على متصفح Chromium الآلي المعزول ومنظومة CrewAI لفحص المواقع الإلكترونية العامة، استخراج لقطات الشاشة لسطح المكتب والجوال، تحليل الهوية البصرية وتجربة المستخدم والمحتوى والسيو التقني والأمان وإمكانية الوصول، مع توليد تقارير تنفيذية بصيغتي HTML وPDF.",
+    "en": "Comprehensive website intelligence service utilizing isolated headless Chromium rendering and CrewAI specialist stages to audit public websites across visual identity, UX/UI, content marketing, technical SEO, passive security, WCAG 2.2 accessibility, and executive HTML/PDF report synthesis."
+  },
+  "category": "marketing-analytics",
+  "icon": "globe",
+  "status": "ready",
+  "featured": true,
+  "is_sample": false,
+  "github": {
+    "url": "https://github.com/AI-ASAAS/site-dna",
+    "pinned_ref": "ae5c1c2b20ebf112385d0024ed4dac3c56d5d472"
+  },
+  "runtime": {
+    "kind": "service",
+    "python": "3.11",
+    "service_spec": {
+      "command": "uv run uvicorn site_dna.api.main:app --host 127.0.0.1 --port 8001 --workers 1",
+      "host": "127.0.0.1",
+      "port": 8001,
+      "health_check_path": "/api/v1/health",
+      "route_allowlist": [
+        "^/api/v1/health$",
+        "^/api/v1/agents$",
+        "^/api/v1/agents/[a-zA-Z0-9_-]+$",
+        "^/api/v1/dashboard/summary$",
+        "^/api/v1/runs$",
+        "^/api/v1/runs/[a-zA-Z0-9_-]+$",
+        "^/api/v1/runs/[a-zA-Z0-9_-]+/cancel$",
+        "^/api/v1/runs/[a-zA-Z0-9_-]+/events$",
+        "^/api/v1/runs/[a-zA-Z0-9_-]+/screenshots$",
+        "^/api/v1/runs/[a-zA-Z0-9_-]+/artifacts/screenshot$",
+        "^/api/v1/runs/[a-zA-Z0-9_-]+/findings$",
+        "^/api/v1/runs/[a-zA-Z0-9_-]+/recommendations$",
+        "^/api/v1/runs/[a-zA-Z0-9_-]+/reports/[a-zA-Z0-9_-]+$",
+        "^/api/v1/runs/[a-zA-Z0-9_-]+/ai-automation$",
+        "^/api/v1/reports/final$",
+        "^/api/v1/reports/final/[a-zA-Z0-9_-]+$",
+        "^/api/v1/reports/final/[a-zA-Z0-9_-]+/[a-zA-Z0-9_-]+$",
+        "^/api/v1/reports/final/[a-zA-Z0-9_-]+/[a-zA-Z0-9_-]+/artifacts$",
+        "^/api/v1/reports/final/[a-zA-Z0-9_-]+/[a-zA-Z0-9_-]+/download$",
+        "^/api/v1/reports/final/[a-zA-Z0-9_-]+/[a-zA-Z0-9_-]+/preview$"
+      ]
+    },
+    "egress_policy": "public_http"
+  },
+  "playground": {
+    "mode": "standalone",
+    "mount_path": "/agents/site-dna/app/",
+    "api_base": "/agents-api/site-dna/api/v1",
+    "ui": "site-dna"
+  },
+  "model_requirements": {
+    "tool_calling": false,
+    "json_schema": true,
+    "vision": true,
+    "min_context_tokens": 64000
+  },
+  "providers": {
+    "allow": [
+      "gemini",
+      "openai",
+      "anthropic",
+      "openrouter"
+    ]
+  },
+  "limits": {
+    "max_wall_clock_seconds": 1200,
+    "platform_concurrent_runs": 2,
+    "session_concurrent_runs": 1,
+    "session_daily_runs": 3,
+    "max_pages_per_run": 8,
+    "max_input_chars": 2048,
+    "max_output_tokens": 4096
+  }
+}

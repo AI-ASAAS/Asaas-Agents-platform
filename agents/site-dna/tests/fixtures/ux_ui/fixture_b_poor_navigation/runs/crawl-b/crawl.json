@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-b",
+  "status": "completed",
+  "website_info": {
+    "initial_url": "https://poor-nav.example.com",
+    "canonical_origin": "https://poor-nav.example.com"
+  },
+  "pages": [
+    {
+      "url": "https://poor-nav.example.com/",
+      "final_url": "https://poor-nav.example.com/",
+      "depth": 0,
+      "status_code": 200,
+      "navigation_links": [
+        {
+          "url": "https://poor-nav.example.com/p1",
+          "text": "اضغط هنا"
+        },
+        {
+          "url": "https://poor-nav.example.com/p2",
+          "text": "اضغط هنا"
+        },
+        {
+          "url": "https://poor-nav.example.com/more",
+          "text": "المزيد"
+        },
+        {
+          "url": "https://poor-nav.example.com/guide-a",
+          "text": "دليل الاستخدام"
+        },
+        {
+          "url": "https://poor-nav.example.com/guide-b",
+          "text": "دليل الاستخدام"
+        }
+      ]
+    },
+    {
+      "url": "https://poor-nav.example.com/p1",
+      "final_url": "https://poor-nav.example.com/p1",
+      "depth": 5,
+      "status_code": 200,
+      "navigation_links": []
+    },
+    {
+      "url": "https://poor-nav.example.com/orphan",
+      "final_url": "https://poor-nav.example.com/orphan",
+      "depth": 1,
+      "status_code": 200,
+      "navigation_links": []
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "sitemap_found": true,
+  "sitemap_urls": [
+    "https://healthy-seo.example.com/",
+    "https://healthy-seo.example.com/services"
+  ],
+  "total_entries_count": 2,
+  "duplicate_urls_count": 0,
+  "cross_origin_entries_count": 0,
+  "crawled_urls_in_sitemap": 2,
+  "uncrawled_sitemap_urls": 0,
+  "evidence_ids": [
+    "EV-001"
+  ],
+  "findings": []
+}

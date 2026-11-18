@@ -1,0 +1,34 @@
+[
+  {
+    "finding_id": "TS-AI01",
+    "title": "Absence of Structured Data Markup on Service Page",
+    "category": "Structured Data",
+    "description": "The /services page does not implement JSON-LD structured data (such as Service or WebPage schema). While missing structured data is not an explicit technical error, schema markup helps search engines interpret page entity attributes more effectively.",
+    "page_url": "https://healthy-seo.example.com/services",
+    "source_excerpt": null,
+    "evidence_ids": [
+      "EV-001"
+    ],
+    "observation_type": "ai_interpretation",
+    "severity": "info",
+    "confidence_category": "inferred",
+    "potential_technical_impact": "التأثير على تجربة الزوار أو فاعلية الفهرسة.",
+    "recommended_action": "Assess adding Service or WebPage structured data using JSON-LD to clearly define offered capabilities."
+  },
+  {
+    "finding_id": "TS-AI02",
+    "title": "Unspecified Language and Internationalization Metadata",
+    "category": "Internationalization",
+    "description": "Content on the site is written in Arabic, but explicit hreflang annotations were not detected in the provided page crawl data.",
+    "page_url": "https://healthy-seo.example.com/",
+    "source_excerpt": null,
+    "evidence_ids": [
+      "EV-001"
+    ],
+    "observation_type": "ai_interpretation",
+    "severity": "info",
+    "confidence_category": "inferred",
+    "potential_technical_impact": "التأثير على تجربة الزوار أو فاعلية الفهرسة.",
+    "recommended_action": "Verify that the HTML lang attribute is set to 'ar' and determine if multi-regional targeting via hreflang is necessary."
+  }
+]

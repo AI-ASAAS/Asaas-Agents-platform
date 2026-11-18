@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "crawl_run_id": "crawl-g",
+  "visual_run_id": "vis-g",
+  "status": "completed",
+  "target_origin": "https://incomplete.example.com",
+  "pages": [
+    {
+      "page_url": "https://incomplete.example.com/",
+      "safe_page_id": "p1",
+      "status": "completed",
+      "desktop_screenshots": [
+        {
+          "viewport_profile": "desktop",
+          "screenshot_type": "viewport",
+          "file_path": "C:\\Users\\mahmoodSaeed\\.gemini\\antigravity\\scratch\\site-dna\\tests\\fixtures\\ux_ui\\fixture_g_incomplete_evidence\\runs\\crawl-g\\visual\\vis-g\\pages\\p1\\non_existent.png",
+          "relative_path": "pages/p1/non_existent.png",
+          "file_size_bytes": 100,
+          "width_px": 100,
+          "height_px": 100,
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "success": true
+        }
+      ],
+      "mobile_screenshots": [],
+      "dom_elements": [],
+      "evidence_records": []
+    }
+  ]
+}

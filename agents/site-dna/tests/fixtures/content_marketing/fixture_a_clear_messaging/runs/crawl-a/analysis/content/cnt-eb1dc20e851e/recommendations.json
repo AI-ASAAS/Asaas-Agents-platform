@@ -1,0 +1,39 @@
+[
+  {
+    "recommendation_id": "CR-01",
+    "title": "معالجة: عناوين خدمات أو منتجات تفتقر للشرح التوضيحي (Unexplained Service Headings)",
+    "related_finding_ids": [
+      "CF-SRV02"
+    ],
+    "affected_page": "https://clear-saas.example.com/services",
+    "affected_content": null,
+    "evidence_ids": [],
+    "recommended_change": "إثراء صفحة الخدمات بفقرات موجزة توضح مخرجات كل خدمة والجمهور المستهدف والخطوة التالية للطلب.",
+    "rationale": "رصد عناوين خدمات مذكورة دون فقرات تفصيلية تشرح طبيعتها: خدمة التحليلات التنبؤية للمشروعات, خدمة الأتمتة التفاعلية للمهام",
+    "expected_communication_benefit": "تحسين استيعاب الزائر للرسالة التسويقية ورفع جودة التواصل الرقمي.",
+    "estimated_effort": "small",
+    "estimated_impact": "medium",
+    "priority": "p2",
+    "verification_method": "inspection"
+  },
+  {
+    "recommendation_id": "CR-02",
+    "title": "معالجة: غياب صفحة أو قسم تعريفي بالمؤسسة (Missing About Information)",
+    "related_finding_ids": [
+      "CF-TRST-NOABT"
+    ],
+    "affected_page": "https://clear-saas.example.com/",
+    "affected_content": null,
+    "evidence_ids": [
+      "EV-A01",
+      "EV-A02"
+    ],
+    "recommended_change": "معالجة المشكلة: غياب صفحة أو قسم تعريفي بالمؤسسة (Missing About Information).",
+    "rationale": "لم يتم العثور على صفحة 'من نحن' أو قسم يعرف بفريق العمل والجهة المسؤولة عن الموقع.",
+    "expected_communication_benefit": "تحسين استيعاب الزائر للرسالة التسويقية ورفع جودة التواصل الرقمي.",
+    "estimated_effort": "small",
+    "estimated_impact": "medium",
+    "priority": "p2",
+    "verification_method": "inspection"
+  }
+]

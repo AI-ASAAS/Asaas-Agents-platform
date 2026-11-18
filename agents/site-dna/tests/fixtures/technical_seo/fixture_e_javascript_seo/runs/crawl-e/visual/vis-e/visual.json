@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "crawl_run_id": "crawl-e",
+  "visual_run_id": "vis-e",
+  "status": "completed",
+  "target_origin": "https://csr-app.example.com",
+  "pages": [
+    {
+      "page_url": "https://csr-app.example.com/",
+      "safe_page_id": "page_00_home",
+      "status": "completed",
+      "desktop_screenshots": [],
+      "mobile_screenshots": [],
+      "dom_elements": [
+        {
+          "element_id": "csr-h1",
+          "tag_name": "h1",
+          "dom_path": "body > div#root > h1",
+          "text_excerpt": "Enterprise Cloud Analytics Suite",
+          "bounding_box": {
+            "x": 20.0,
+            "y": 20.0,
+            "width": 400.0,
+            "height": 50.0
+          }
+        }
+      ],
+      "computed_styles": [],
+      "colors": [],
+      "typography": [],
+      "layout_records": [],
+      "responsive_observations": [],
+      "evidence_records": [],
+      "render_errors": []
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "_comment": "Maintained by ASAAS engineering from verified vendor specifications. Do not accept client-provided capabilities.",
+  "last_verified": "2026-11-17",
+  "models": {
+    "gemini": {
+      "gemini-2.0-flash": {
+        "display_name": "Gemini 2.0 Flash",
+        "tool_calling": true,
+        "json_schema": true,
+        "vision": true,
+        "min_context_tokens": 1048576,
+        "pricing": { "input_per_million": 0.0, "output_per_million": 0.0 }
+      },
+      "gemini-2.0-flash-exp": {
+        "display_name": "Gemini 2.0 Flash (Experimental)",
+        "tool_calling": true,
+        "json_schema": true,
+        "vision": true,
+        "min_context_tokens": 1048576,
+        "pricing": { "input_per_million": 0.0, "output_per_million": 0.0 }
+      },
+      "gemini-1.5-flash": {
+        "display_name": "Gemini 1.5 Flash",
+        "tool_calling": true,
+        "json_schema": true,
+        "vision": true,
+        "min_context_tokens": 1048576,
+        "pricing": { "input_per_million": 0.0, "output_per_million": 0.0 }
+      },
+      "gemini-1.5-pro": {
+        "display_name": "Gemini 1.5 Pro",
+        "tool_calling": true,
+        "json_schema": true,
+        "vision": true,
+        "min_context_tokens": 2097152,
+        "pricing": { "input_per_million": 0.0, "output_per_million": 0.0 }
+      }
+    },
+    "openai": {
+      "gpt-4o-mini": {
+        "display_name": "GPT-4o mini",
+        "tool_calling": true,
+        "json_schema": true,
+        "vision": true,
+        "min_context_tokens": 128000,
+        "pricing": { "input_per_million": 0.15, "output_per_million": 0.60 }
+      },
+      "gpt-4o": {
+        "display_name": "GPT-4o",
+        "tool_calling": true,
+        "json_schema": true,
+        "vision": true,
+        "min_context_tokens": 128000,
+        "pricing": { "input_per_million": 2.50, "output_per_million": 10.00 }
+      }
+    },
+    "anthropic": {
+      "claude-3-5-haiku-20241022": {
+        "display_name": "Claude 3.5 Haiku",
+        "tool_calling": true,
+        "json_schema": true,
+        "vision": true,
+        "min_context_tokens": 200000,
+        "pricing": { "input_per_million": 0.80, "output_per_million": 4.00 }
+      },
+      "claude-3-5-haiku-latest": {
+        "display_name": "Claude 3.5 Haiku (Latest)",
+        "tool_calling": true,
+        "json_schema": true,
+        "vision": true,
+        "min_context_tokens": 200000,
+        "pricing": { "input_per_million": 0.80, "output_per_million": 4.00 }
+      },
+      "claude-3-5-sonnet-20241022": {
+        "display_name": "Claude 3.5 Sonnet",
+        "tool_calling": true,
+        "json_schema": true,
+        "vision": true,
+        "min_context_tokens": 200000,
+        "pricing": { "input_per_million": 3.00, "output_per_million": 15.00 }
+      },
+      "claude-3-5-sonnet-latest": {
+        "display_name": "Claude 3.5 Sonnet (Latest)",
+        "tool_calling": true,
+        "json_schema": true,
+        "vision": true,
+        "min_context_tokens": 200000,
+        "pricing": { "input_per_million": 3.00, "output_per_million": 15.00 }
+      }
+    },
+    "openrouter": {
+      "google/gemini-2.0-flash-exp:free": {
+        "display_name": "Gemini 2.0 Flash Exp (Free)",
+        "tool_calling": true,
+        "json_schema": true,
+        "vision": true,
+        "min_context_tokens": 1048576,
+        "pricing": { "input_per_million": 0.0, "output_per_million": 0.0 }
+      },
+      "meta-llama/llama-3.3-70b-instruct": {
+        "display_name": "Llama 3.3 70B Instruct",
+        "tool_calling": true,
+        "json_schema": true,
+        "vision": false,
+        "min_context_tokens": 131072,
+        "pricing": { "input_per_million": 0.12, "output_per_million": 0.30 }
+      },
+      "meta-llama/llama-3.2-3b-instruct:free": {
+        "display_name": "Llama 3.2 3B Instruct (Free)",
+        "tool_calling": false,
+        "json_schema": false,
+        "vision": false,
+        "min_context_tokens": 131072,
+        "pricing": { "input_per_million": 0.0, "output_per_million": 0.0 }
+      }
+    }
+  }
+}

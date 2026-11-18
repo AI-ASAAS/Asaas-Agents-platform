@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-j",
+  "website_info": {
+    "initial_url": "https://minimal.example.com",
+    "canonical_origin": "https://minimal.example.com"
+  },
+  "pages": [
+    {
+      "url": "https://minimal.example.com/",
+      "final_url": "https://minimal.example.com/",
+      "status_code": 200,
+      "depth": 0,
+      "metadata": {}
+    }
+  ],
+  "discovered_internal_links": [],
+  "evidence": [],
+  "errors": []
+}

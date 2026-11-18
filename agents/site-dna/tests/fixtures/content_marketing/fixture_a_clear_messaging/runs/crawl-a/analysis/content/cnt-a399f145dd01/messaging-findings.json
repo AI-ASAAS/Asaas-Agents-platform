@@ -1,0 +1,33 @@
+[
+  {
+    "finding_id": "CF-SRV02",
+    "title": "عناوين خدمات أو منتجات تفتقر للشرح التوضيحي (Unexplained Service Headings)",
+    "category": "service_content",
+    "description": "رصد عناوين خدمات مذكورة دون فقرات تفصيلية تشرح طبيعتها: خدمة التحليلات التنبؤية للمشروعات, خدمة الأتمتة التفاعلية للمهام",
+    "page_url": "https://clear-saas.example.com/services",
+    "source_excerpt": null,
+    "evidence_ids": [],
+    "observation_type": "derived",
+    "severity": "medium",
+    "confidence_category": "measured",
+    "potential_communication_impact": null,
+    "recommendation_id": "CR-01"
+  },
+  {
+    "finding_id": "CF-TRST-NOABT",
+    "title": "غياب صفحة أو قسم تعريفي بالمؤسسة (Missing About Information)",
+    "category": "trust_claims",
+    "description": "لم يتم العثور على صفحة 'من نحن' أو قسم يعرف بفريق العمل والجهة المسؤولة عن الموقع.",
+    "page_url": "https://clear-saas.example.com/",
+    "source_excerpt": null,
+    "evidence_ids": [
+      "EV-A01",
+      "EV-A02"
+    ],
+    "observation_type": "derived",
+    "severity": "medium",
+    "confidence_category": "measured",
+    "potential_communication_impact": null,
+    "recommendation_id": "CR-02"
+  }
+]

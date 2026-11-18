@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "slug": "content-writer",
+  "name": {
+    "ar": "وكيل كتابة المحتوى",
+    "en": "Content Writer Agent"
+  },
+  "summary": {
+    "ar": "صياغة وكتابة المحتوى التسويقي والمقالات والمنشورات الاحترافية بنبرة علامتك التجارية وباللغة العربية الفصحى أو الإنجليزية.",
+    "en": "Crafts marketing copy, articles, and brand-aligned social posts in Arabic and English."
+  },
+  "description": {
+    "ar": "وكيل ذكي متخصص في إعداد وكتابة المحتوى التسويقي والرقمي باحترافية عالية، يشمل المقالات المتوافقة مع محركات البحث (SEO)، ونصوص الصفحات التعريفية، ومنشورات الشبكات الاجتماعية، مع الالتزام بهوية ونبرة علامتك التجارية.",
+    "en": "Specialized AI agent for drafting SEO-friendly articles, landing page copy, and social media posts tailored to your brand voice and target audience."
+  },
+  "category": "marketing-analytics",
+  "icon": "pen",
+  "status": "coming_soon",
+  "featured": false,
+  "is_sample": false,
+  "github": {
+    "url": "https://github.com/AI-ASAAS/content-writer",
+    "pinned_ref": "0000000000000000000000000000000000000000"
+  },
+  "runtime": {
+    "kind": "python",
+    "python": "3.12",
+    "entrypoint": "src/main.py",
+    "protocol": "jsonl-stdio@1"
+  },
+  "playground": {
+    "mode": "chat",
+    "ui": "content-writer"
+  },
+  "model_requirements": {
+    "tool_calling": false,
+    "json_schema": true,
+    "vision": false,
+    "min_context_tokens": 32000
+  },
+  "providers": {
+    "allow": [
+      "gemini",
+      "openai",
+      "anthropic",
+      "openrouter"
+    ]
+  },
+  "limits": {
+    "max_steps": 6,
+    "timeout_seconds": 90,
+    "max_input_chars": 8000,
+    "max_output_tokens": 3000
+  }
+}

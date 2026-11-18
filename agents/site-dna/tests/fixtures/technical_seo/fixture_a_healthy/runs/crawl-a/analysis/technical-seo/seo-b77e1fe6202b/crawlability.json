@@ -1,0 +1,12 @@
+{
+  "status": "permitted",
+  "total_internal_links": 6,
+  "unique_destinations": 3,
+  "broken_links_count": 0,
+  "crawl_depth_max": 1,
+  "orphaned_pages_detected": 0,
+  "evidence_ids": [
+    "EV-001"
+  ],
+  "findings": []
+}

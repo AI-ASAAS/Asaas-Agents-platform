@@ -1,0 +1,460 @@
+{
+  "schema_version": "1.0",
+  "analysis_run_id": "cnt-ffdc973cd97e",
+  "crawl_run_id": "crawl-a",
+  "visual_run_id": null,
+  "target_origin": "https://clear-saas.example.com",
+  "created_at": "2026-11-08T22:14:35.524777Z",
+  "analysis_status": "completed",
+  "overall_score": 98.0,
+  "scores": [
+    {
+      "dimension_name": "value_proposition",
+      "dimension_name_ar": "وضوح القيمة المقترحة (Value Proposition Clarity)",
+      "weight": 0.2,
+      "score": 100.0,
+      "status": "assessed",
+      "rationale": "درجة مثالية (100.0/100) لخلو البعد من أي ملاحظات سلبية موثقة.",
+      "evidence_count": 0
+    },
+    {
+      "dimension_name": "messaging_clarity",
+      "dimension_name_ar": "وضوح ودقة الرسائل التسويقية (Messaging Clarity & Specificity)",
+      "weight": 0.2,
+      "score": 100.0,
+      "status": "assessed",
+      "rationale": "درجة مثالية (100.0/100) لخلو البعد من أي ملاحظات سلبية موثقة.",
+      "evidence_count": 0
+    },
+    {
+      "dimension_name": "service_content",
+      "dimension_name_ar": "اكتمال شرح الخدمات والمنتجات (Product/Service Explanation)",
+      "weight": 0.15,
+      "score": 92.0,
+      "status": "assessed",
+      "rationale": "احتُسبت الدرجة (92.0/100) استناداً إلى 1 ملاحظة موثقة بالأدلة.",
+      "evidence_count": 1
+    },
+    {
+      "dimension_name": "cta_action",
+      "dimension_name_ar": "وضوح عبارات اتخاذ الإجراء (CTA Copy & Action Clarity)",
+      "weight": 0.15,
+      "score": 100.0,
+      "status": "assessed",
+      "rationale": "درجة مثالية (100.0/100) لخلو البعد من أي ملاحظات سلبية موثقة.",
+      "evidence_count": 0
+    },
+    {
+      "dimension_name": "trust_claims",
+      "dimension_name_ar": "الشفافية والمصداقية والادعاءات (Trust & Claim Transparency)",
+      "weight": 0.1,
+      "score": 92.0,
+      "status": "assessed",
+      "rationale": "احتُسبت الدرجة (92.0/100) استناداً إلى 1 ملاحظة موثقة بالأدلة.",
+      "evidence_count": 1
+    },
+    {
+      "dimension_name": "brand_voice",
+      "dimension_name_ar": "نبرة الصوت واتساق الهوية (Brand Voice & Consistency)",
+      "weight": 0.1,
+      "score": 100.0,
+      "status": "assessed",
+      "rationale": "درجة مثالية (100.0/100) لخلو البعد من أي ملاحظات سلبية موثقة.",
+      "evidence_count": 0
+    },
+    {
+      "dimension_name": "audience_alignment",
+      "dimension_name_ar": "ملاءمة المحتوى للجمهور المستهدف (Audience & Purpose Alignment)",
+      "weight": 0.1,
+      "score": 100.0,
+      "status": "assessed",
+      "rationale": "درجة مثالية (100.0/100) لخلو البعد من أي ملاحظات سلبية موثقة.",
+      "evidence_count": 0
+    }
+  ],
+  "content_inventory": {
+    "total_pages": 3,
+    "page_types_distribution": {
+      "home": 1,
+      "services": 1,
+      "contact": 1
+    },
+    "total_word_count": 133,
+    "average_word_count_per_page": 44.3,
+    "languages_detected": [
+      "ar"
+    ],
+    "pages": [
+      {
+        "page_id": "p1_saas_example_com",
+        "page_url": "https://clear-saas.example.com/",
+        "page_type": "home",
+        "page_title": "منصة أساس لإدارة المشروعات بالذكاء الاصطناعي",
+        "meta_description": "منصة سحابية متطورة تساعد الفرق الرقمية على أتمتة إدارة المهام وزيادة الإنتاجية بنسبة 30%.",
+        "language": "ar",
+        "dir": "rtl",
+        "headings": [
+          {
+            "level": 1,
+            "text": "منصة إدارة المشروعات الذكية للفرق الرقمية"
+          },
+          {
+            "level": 2,
+            "text": "أتمتة ذكية تضمن تسريع إنجاز المشروعات"
+          },
+          {
+            "level": 2,
+            "text": "خدماتنا وحلولنا المتكاملة"
+          }
+        ],
+        "main_content": "نقدم لفرق العمل حلاً سحابياً متكاملاً لإدارة المهام ومتابعة المشروعات بذكاء اصطناعي تفاعلي. تمكّن المنصة الشركات من تحسين التنسيق وتوفير الوقت والجهد في إدارة العمليات اليومية. نوفر تجربة استخدام سهلة ودعماً فنياً على مدار الساعة للشركات الناشئة والمؤسسات الكبرى.",
+        "paragraphs": [
+          {
+            "text": "نقدم لفرق العمل حلاً سحابياً متكاملاً لإدارة المهام ومتابعة المشروعات بذكاء اصطناعي تفاعلي. تمكّن المنصة الشركات من تحسين التنسيق وتوفير الوقت والجهد في إدارة العمليات اليومية. نوفر تجربة استخدام سهلة ودعماً فنياً على مدار الساعة للشركات الناشئة والمؤسسات الكبرى.",
+            "word_count": 39
+          }
+        ],
+        "service_descriptions": [],
+        "product_descriptions": [],
+        "cta_candidates": [
+          {
+            "text": "ابدأ تجربتك المجانية لمدة 14 يوماً",
+            "type": "button",
+            "context": "buttons"
+          },
+          {
+            "text": "احجز عرضاً توضيحياً",
+            "type": "button",
+            "context": "buttons"
+          },
+          {
+            "text": "خدماتنا",
+            "type": "link",
+            "url": "https://clear-saas.example.com/services",
+            "is_internal": true
+          },
+          {
+            "text": "من نحن",
+            "type": "link",
+            "url": "https://clear-saas.example.com/about",
+            "is_internal": true
+          },
+          {
+            "text": "تواصل معنا",
+            "type": "link",
+            "url": "https://clear-saas.example.com/contact",
+            "is_internal": true
+          }
+        ],
+        "navigation_labels": [
+          "خدماتنا",
+          "من نحن",
+          "تواصل معنا"
+        ],
+        "trust_signal_candidates": [],
+        "word_count": 55,
+        "source_evidence_ids": [
+          "EV-A01",
+          "EV-A02"
+        ],
+        "extraction_limitations": []
+      },
+      {
+        "page_id": "p2_ple_com_services",
+        "page_url": "https://clear-saas.example.com/services",
+        "page_type": "services",
+        "page_title": "خدماتنا وحلولنا — أساس",
+        "meta_description": "استكشف خدمات أتمتة المشروعات وتحليلات الأداء المتقدمة.",
+        "language": "ar",
+        "dir": "rtl",
+        "headings": [
+          {
+            "level": 1,
+            "text": "خدمات وحلول منصة أساس"
+          },
+          {
+            "level": 2,
+            "text": "خدمة التحليلات التنبؤية للمشروعات"
+          },
+          {
+            "level": 2,
+            "text": "خدمة الأتمتة التفاعلية للمهام"
+          }
+        ],
+        "main_content": "تتضمن خدمة التحليلات التنبؤية قراءة مؤشرات الأداء وتوقع المخاطر قبل حدوثها. بينما تتيح خدمة الأتمتة التفاعلية توزيع المهام آلياً على أعضاء الفريق وفقاً للطاقة الاستيعابية.",
+        "paragraphs": [
+          {
+            "text": "تتضمن خدمة التحليلات التنبؤية قراءة مؤشرات الأداء وتوقع المخاطر قبل حدوثها. بينما تتيح خدمة الأتمتة التفاعلية توزيع المهام آلياً على أعضاء الفريق وفقاً للطاقة الاستيعابية.",
+            "word_count": 25
+          }
+        ],
+        "service_descriptions": [
+          "تتضمن خدمة التحليلات التنبؤية قراءة مؤشرات الأداء وتوقع المخاطر قبل حدوثها. بينما تتيح خدمة الأتمتة التفاعلية توزيع المهام آلياً على أعضاء الفريق وفقاً للطاقة الاستيعابية."
+        ],
+        "product_descriptions": [],
+        "cta_candidates": [
+          {
+            "text": "اطلب الخدمة الآن",
+            "type": "button",
+            "context": "buttons"
+          },
+          {
+            "text": "الرئيسية",
+            "type": "link",
+            "url": "https://clear-saas.example.com/",
+            "is_internal": true
+          },
+          {
+            "text": "اطلب استشارة مجانية",
+            "type": "link",
+            "url": "https://clear-saas.example.com/contact",
+            "is_internal": true
+          }
+        ],
+        "navigation_labels": [
+          "الرئيسية",
+          "اطلب استشارة مجانية"
+        ],
+        "trust_signal_candidates": [],
+        "word_count": 48,
+        "source_evidence_ids": [],
+        "extraction_limitations": []
+      },
+      {
+        "page_id": "p3_mple_com_contact",
+        "page_url": "https://clear-saas.example.com/contact",
+        "page_type": "contact",
+        "page_title": "تواصل معنا — أساس",
+        "meta_description": "تواصل مع فريق الدعم الفني والمبيعات.",
+        "language": "ar",
+        "dir": "rtl",
+        "headings": [
+          {
+            "level": 1,
+            "text": "تواصل مع فريقنا"
+          }
+        ],
+        "main_content": "يسعدنا الرد على استفساراتكم عبر البريد الإلكتروني support@clear-saas.example.com أو الهاتف +966110000000. مقرنا الرياض، المملكة العربية السعودية.",
+        "paragraphs": [
+          {
+            "text": "يسعدنا الرد على استفساراتكم عبر البريد الإلكتروني support@clear-saas.example.com أو الهاتف +966110000000. مقرنا الرياض، المملكة العربية السعودية.",
+            "word_count": 16
+          }
+        ],
+        "service_descriptions": [],
+        "product_descriptions": [],
+        "cta_candidates": [
+          {
+            "text": "إرسال الرسالة",
+            "type": "button",
+            "context": "buttons"
+          },
+          {
+            "text": "الرئيسية",
+            "type": "link",
+            "url": "https://clear-saas.example.com/",
+            "is_internal": true
+          }
+        ],
+        "navigation_labels": [
+          "الرئيسية"
+        ],
+        "trust_signal_candidates": [
+          "support"
+        ],
+        "word_count": 30,
+        "source_evidence_ids": [],
+        "extraction_limitations": []
+      }
+    ],
+    "missing_descriptions_count": 0,
+    "headings_summary": {
+      "h1": 3,
+      "h2": 4,
+      "h3": 0,
+      "h4": 0,
+      "h5": 0,
+      "h6": 0
+    }
+  },
+  "value_proposition": {
+    "offering_summary": "منصة إدارة المشروعات الذكية للفرق الرقمية",
+    "target_audience": "نوفر تجربة استخدام سهلة ودعماً فنياً على مدار الساعة للشركات الناشئة والمؤسسات الكبرى",
+    "problem_addressed": null,
+    "core_benefits": [
+      "تمكّن المنصة الشركات من تحسين التنسيق وتوفير الوقت والجهد في إدارة العمليات اليومية"
+    ],
+    "claimed_differentiators": [],
+    "clarity_rating": "clear",
+    "is_understandable_without_context": true,
+    "evidence_ids": [
+      "EV-A01",
+      "EV-A02"
+    ],
+    "findings": []
+  },
+  "messaging": {
+    "hero_headline": "منصة إدارة المشروعات الذكية للفرق الرقمية",
+    "hero_subheadline": "أتمتة ذكية تضمن تسريع إنجاز المشروعات",
+    "headline_clarity": "clear",
+    "jargon_level": "low",
+    "absolute_claims_count": 0,
+    "repeated_phrases": [],
+    "evidence_ids": [
+      "EV-A01",
+      "EV-A02"
+    ]
+  },
+  "services_and_products": {
+    "total_services_identified": 2,
+    "total_products_identified": 0,
+    "descriptions_completeness": "adequate",
+    "unexplained_offerings": [
+      "خدمة التحليلات التنبؤية للمشروعات",
+      "خدمة الأتمتة التفاعلية للمهام"
+    ],
+    "next_step_clarity": true,
+    "evidence_ids": []
+  },
+  "ctas": {
+    "total_ctas_observed": 10,
+    "unique_cta_labels": [
+      "إرسال الرسالة",
+      "ابدأ تجربتك المجانية لمدة 14 يوماً",
+      "احجز عرضاً توضيحياً",
+      "اطلب استشارة مجانية",
+      "اطلب الخدمة الآن",
+      "الرئيسية",
+      "تواصل معنا",
+      "خدماتنا",
+      "من نحن"
+    ],
+    "generic_ctas_count": 0,
+    "primary_cta_identified": true,
+    "inconsistent_destinations_count": 0,
+    "evidence_ids": [
+      "EV-A01",
+      "EV-A02"
+    ]
+  },
+  "trust_and_claims": [],
+  "brand_voice": {
+    "observed_tone": "professional",
+    "primary_language": "ar",
+    "dialect_detected": null,
+    "is_bilingual": true,
+    "cross_page_tone_consistency": "consistent",
+    "evidence_ids": [
+      "EV-A01",
+      "EV-A02"
+    ]
+  },
+  "content_gaps": [],
+  "findings": [
+    {
+      "finding_id": "CF-SRV02",
+      "title": "عناوين خدمات أو منتجات تفتقر للشرح التوضيحي (Unexplained Service Headings)",
+      "category": "service_content",
+      "description": "رصد عناوين خدمات مذكورة دون فقرات تفصيلية تشرح طبيعتها: خدمة التحليلات التنبؤية للمشروعات, خدمة الأتمتة التفاعلية للمهام",
+      "page_url": "https://clear-saas.example.com/services",
+      "source_excerpt": null,
+      "evidence_ids": [],
+      "observation_type": "derived",
+      "severity": "medium",
+      "confidence_category": "measured",
+      "potential_communication_impact": null,
+      "recommendation_id": "CR-01"
+    },
+    {
+      "finding_id": "CF-TRST-NOABT",
+      "title": "غياب صفحة أو قسم تعريفي بالمؤسسة (Missing About Information)",
+      "category": "trust_claims",
+      "description": "لم يتم العثور على صفحة 'من نحن' أو قسم يعرف بفريق العمل والجهة المسؤولة عن الموقع.",
+      "page_url": "https://clear-saas.example.com/",
+      "source_excerpt": null,
+      "evidence_ids": [
+        "EV-A01",
+        "EV-A02"
+      ],
+      "observation_type": "derived",
+      "severity": "medium",
+      "confidence_category": "measured",
+      "potential_communication_impact": null,
+      "recommendation_id": "CR-02"
+    }
+  ],
+  "quarantined_findings": [],
+  "recommendations": [
+    {
+      "recommendation_id": "CR-01",
+      "title": "معالجة: عناوين خدمات أو منتجات تفتقر للشرح التوضيحي (Unexplained Service Headings)",
+      "related_finding_ids": [
+        "CF-SRV02"
+      ],
+      "affected_page": "https://clear-saas.example.com/services",
+      "affected_content": null,
+      "evidence_ids": [],
+      "recommended_change": "إثراء صفحة الخدمات بفقرات موجزة توضح مخرجات كل خدمة والجمهور المستهدف والخطوة التالية للطلب.",
+      "rationale": "رصد عناوين خدمات مذكورة دون فقرات تفصيلية تشرح طبيعتها: خدمة التحليلات التنبؤية للمشروعات, خدمة الأتمتة التفاعلية للمهام",
+      "expected_communication_benefit": "تحسين استيعاب الزائر للرسالة التسويقية ورفع جودة التواصل الرقمي.",
+      "estimated_effort": "small",
+      "estimated_impact": "medium",
+      "priority": "p2",
+      "verification_method": "inspection"
+    },
+    {
+      "recommendation_id": "CR-02",
+      "title": "معالجة: غياب صفحة أو قسم تعريفي بالمؤسسة (Missing About Information)",
+      "related_finding_ids": [
+        "CF-TRST-NOABT"
+      ],
+      "affected_page": "https://clear-saas.example.com/",
+      "affected_content": null,
+      "evidence_ids": [
+        "EV-A01",
+        "EV-A02"
+      ],
+      "recommended_change": "معالجة المشكلة: غياب صفحة أو قسم تعريفي بالمؤسسة (Missing About Information).",
+      "rationale": "لم يتم العثور على صفحة 'من نحن' أو قسم يعرف بفريق العمل والجهة المسؤولة عن الموقع.",
+      "expected_communication_benefit": "تحسين استيعاب الزائر للرسالة التسويقية ورفع جودة التواصل الرقمي.",
+      "estimated_effort": "small",
+      "estimated_impact": "medium",
+      "priority": "p2",
+      "verification_method": "inspection"
+    }
+  ],
+  "rewrite_proposals": [
+    {
+      "proposal_id": "PRP-01",
+      "element_type": "hero_copy",
+      "source_page": "https://clear-saas.example.com/",
+      "source_evidence_id": "EV-A01",
+      "original_excerpt": "نقدم لفرق العمل حلاً سحابياً متكاملاً لإدارة المهام ومتابعة المشروعات بذكاء اصطناعي تفاعلي. تمكّن المنصة الشركات من تحسي",
+      "identified_communication_issue": "إمكانية تعزيز جاذبية النص التمهيدي بإضافة عبارة تؤكد الفائدة المباشرة للزائر.",
+      "proposed_replacement": "نقدم لفرق العمل حلاً سحابياً متكاملاً لإدارة المهام ومتابعة المشروعات بذكاء اصطناعي تفاعلي. تمكّن المنصة الشركات من تحسي... احصل على تحليل دقيق وقابل للتنفيذ لتحسين حضورك الرقمي.",
+      "explanation_of_change": "إعادة هيكلة الفقرة التمهيدية لتجمع بين تعريف النشاط والنتيجة العملية للعميل.",
+      "facts_preserved": [
+        "النص الأصلي: نقدم لفرق العمل حلاً سحابياً متكاملاً لإدارة المهام ومتابعة ..."
+      ],
+      "information_requiring_confirmation": [
+        "[تأكيد الفائدة المحورية المستهدفة للتسليط عليها في الواجهة]"
+      ],
+      "is_suggestion": true
+    }
+  ],
+  "statistics": {
+    "pages_analyzed": 3,
+    "total_words_analyzed": 133,
+    "claims_inventoried": 0,
+    "ctas_analyzed": 10,
+    "findings_count": 2,
+    "recommendations_count": 2,
+    "rewrite_proposals_count": 1,
+    "model_calls_count": 0,
+    "model_name": "gemini-3.6-flash",
+    "execution_duration_ms": 5.5,
+    "ai_status": "completed"
+  },
+  "report_markdown_path": "C:\\Users\\mahmoodSaeed\\.gemini\\antigravity\\scratch\\site-dna\\tests\\fixtures\\content_marketing\\fixture_a_clear_messaging\\runs\\crawl-a\\analysis\\content\\cnt-ffdc973cd97e\\report.md",
+  "analysis_json_path": "C:\\Users\\mahmoodSaeed\\.gemini\\antigravity\\scratch\\site-dna\\tests\\fixtures\\content_marketing\\fixture_a_clear_messaging\\runs\\crawl-a\\analysis\\content\\cnt-ffdc973cd97e\\analysis.json"
+}

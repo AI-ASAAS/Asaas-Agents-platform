@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "crawl_run_id": "crawl-d",
+  "visual_run_id": "vis-d",
+  "status": "completed",
+  "target_origin": "https://site-d.sa",
+  "pages": [
+    {
+      "page_url": "https://site-d.sa/",
+      "safe_page_id": "page_00_home",
+      "status": "completed",
+      "desktop_screenshots": [
+        {
+          "viewport_profile": "desktop",
+          "screenshot_type": "viewport",
+          "file_path": "C:\\Users\\mahmoodSaeed\\.gemini\\antigravity\\scratch\\site-dna\\tests\\fixtures\\visual_identity\\fixture_d\\runs\\crawl-d\\visual\\vis-d\\pages\\p1\\desktop_viewport.png",
+          "relative_path": "pages/p1/desktop_viewport.png",
+          "file_size_bytes": 4792,
+          "width_px": 1280,
+          "height_px": 800,
+          "sha256": "625c884c62f4cec7ec356b6cd283e95b45515d591f793fec099944bc60b1fa67",
+          "success": true
+        }
+      ],
+      "mobile_screenshots": [
+        {
+          "viewport_profile": "mobile",
+          "screenshot_type": "viewport",
+          "file_path": "C:\\Users\\mahmoodSaeed\\.gemini\\antigravity\\scratch\\site-dna\\tests\\fixtures\\visual_identity\\fixture_d\\runs\\crawl-d\\visual\\vis-d\\pages\\p1\\mobile_viewport.png",
+          "relative_path": "pages/p1/mobile_viewport.png",
+          "file_size_bytes": 2175,
+          "width_px": 375,
+          "height_px": 667,
+          "sha256": "66e6feac0349f6a9166a18db3c00ce3b1d8e7b23a9019d3d776681e4c6efa363",
+          "success": true
+        }
+      ],
+      "colors": [
+        {
+          "hex": "#0f172a",
+          "rgb": [
+            15,
+            23,
+            42
+          ],
+          "usage": "background",
+          "occurrence_count": 30
+        },
+        {
+          "hex": "#f8fafc",
+          "rgb": [
+            248,
+            250,
+            252
+          ],
+          "usage": "text",
+          "occurrence_count": 40
+        },
+        {
+          "hex": "#38bdf8",
+          "rgb": [
+            56,
+            189,
+            248
+          ],
+          "usage": "primary",
+          "occurrence_count": 15
+        }
+      ],
+      "typography": [
+        {
+          "element_type": "h1",
+          "font_family": "Cairo, sans-serif",
+          "font_size_px": 32.0,
+          "font_weight": "700",
+          "direction": "rtl",
+          "language": "ar"
+        },
+        {
+          "element_type": "p",
+          "font_family": "Cairo, sans-serif",
+          "font_size_px": 16.0,
+          "font_weight": "400",
+          "direction": "rtl",
+          "language": "ar"
+        }
+      ],
+      "evidence_records": [
+        {
+          "evidence_id": "ev-d-1",
+          "crawl_run_id": "crawl-d",
+          "visual_run_id": "vis-d",
+          "page_url": "https://site-d.sa/",
+          "viewport_profile": "desktop",
+          "evidence_category": "screenshot",
+          "confidence_category": "observed",
+          "field_reference": "shot",
+          "observed_value": "C:\\Users\\mahmoodSaeed\\.gemini\\antigravity\\scratch\\site-dna\\tests\\fixtures\\visual_identity\\fixture_d\\runs\\crawl-d\\visual\\vis-d\\pages\\p1\\desktop_viewport.png",
+          "collection_method": "playwright"
+        }
+      ]
+    }
+  ]
+}

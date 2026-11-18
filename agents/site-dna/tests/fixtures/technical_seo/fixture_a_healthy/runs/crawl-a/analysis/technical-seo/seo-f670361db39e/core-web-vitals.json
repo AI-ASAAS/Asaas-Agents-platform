@@ -1,0 +1,15 @@
+{
+  "lcp_ms": 750.0,
+  "inp_ms": null,
+  "cls": 0.0,
+  "lcp_source": "lab_browser",
+  "inp_source": "not_measured",
+  "cls_source": "lab_browser",
+  "field_vs_lab": "lab",
+  "assessment_status": "good",
+  "notes": [
+    "CLS evaluated from local Chromium viewport rendering session.",
+    "LCP approximated from local browser page render completion duration.",
+    "INP (Interaction to Next Paint) marked unavailable: requires real-user field telemetry (CrUX) or synthetic user interaction events."
+  ]
+}

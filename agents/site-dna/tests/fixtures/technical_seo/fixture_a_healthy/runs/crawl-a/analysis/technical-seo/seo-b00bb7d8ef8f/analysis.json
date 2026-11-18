@@ -1,0 +1,375 @@
+{
+  "schema_version": "1.0",
+  "analysis_run_id": "seo-b00bb7d8ef8f",
+  "crawl_run_id": "crawl-a",
+  "visual_run_id": "vis-a",
+  "target_origin": "https://healthy-seo.example.com",
+  "created_at": "2026-11-08T13:52:16.067947Z",
+  "analysis_status": "completed",
+  "overall_score": 100.0,
+  "scores": [
+    {
+      "dimension_name": "crawlability",
+      "dimension_name_ar": "إمكانية الزحف والاكتشاف الداخلي (Crawlability & Internal Discovery)",
+      "weight": 0.2,
+      "score": 100.0,
+      "status": "assessed",
+      "rationale": "درجة كاملة (100.0/100) لخلو البعد من أي مشكلات تقنية موثقة.",
+      "evidence_count": 0
+    },
+    {
+      "dimension_name": "indexability",
+      "dimension_name_ar": "إشارات الفهرسة والروابط المعيارية (Indexability & Canonical Signals)",
+      "weight": 0.2,
+      "score": 100.0,
+      "status": "assessed",
+      "rationale": "درجة كاملة (100.0/100) لخلو البعد من أي مشكلات تقنية موثقة.",
+      "evidence_count": 0
+    },
+    {
+      "dimension_name": "metadata",
+      "dimension_name_ar": "البيانات الوصفية للرأس (Technical Metadata)",
+      "weight": 0.15,
+      "score": 100.0,
+      "status": "assessed",
+      "rationale": "درجة كاملة (100.0/100) لخلو البعد من أي مشكلات تقنية موثقة.",
+      "evidence_count": 0
+    },
+    {
+      "dimension_name": "structured_data",
+      "dimension_name_ar": "البيانات المنظمة والمخططات (Structured Data)",
+      "weight": 0.1,
+      "score": 100.0,
+      "status": "assessed",
+      "rationale": "درجة كاملة (100.0/100) لخلو البعد من أي مشكلات تقنية موثقة.",
+      "evidence_count": 0
+    },
+    {
+      "dimension_name": "mobile_js_seo",
+      "dimension_name_ar": "SEO الجوال وتصيير جافاسكربت (Mobile & JavaScript SEO)",
+      "weight": 0.15,
+      "score": 100.0,
+      "status": "assessed",
+      "rationale": "درجة كاملة (100.0/100) لخلو البعد من أي مشكلات تقنية موثقة.",
+      "evidence_count": 0
+    },
+    {
+      "dimension_name": "performance",
+      "dimension_name_ar": "الأداء وسرعة التحميل (Performance & Core Web Vitals)",
+      "weight": 0.2,
+      "score": 100.0,
+      "status": "assessed",
+      "rationale": "درجة كاملة (100.0/100) لخلو البعد من أي مشكلات تقنية موثقة.",
+      "evidence_count": 0
+    }
+  ],
+  "crawlability": {
+    "status": "permitted",
+    "total_internal_links": 6,
+    "unique_destinations": 3,
+    "broken_links_count": 0,
+    "crawl_depth_max": 1,
+    "orphaned_pages_detected": 0,
+    "evidence_ids": [
+      "EV-001"
+    ],
+    "findings": []
+  },
+  "indexability": {
+    "status": "potentially_indexable",
+    "noindex_count": 0,
+    "x_robots_tag_count": 0,
+    "conflicting_directives_count": 0,
+    "pages_with_directives": [
+      "https://healthy-seo.example.com/",
+      "https://healthy-seo.example.com/services"
+    ],
+    "evidence_ids": [
+      "EV-001"
+    ],
+    "findings": []
+  },
+  "robots": {
+    "is_present": true,
+    "http_status": null,
+    "crawler_allowed": true,
+    "disallowed_paths": [],
+    "sitemap_references": [
+      "https://healthy-seo.example.com/",
+      "https://healthy-seo.example.com/services"
+    ],
+    "evidence_ids": [
+      "EV-001"
+    ],
+    "findings": []
+  },
+  "sitemap": {
+    "sitemap_found": true,
+    "sitemap_urls": [
+      "https://healthy-seo.example.com/",
+      "https://healthy-seo.example.com/services"
+    ],
+    "total_entries_count": 2,
+    "duplicate_urls_count": 0,
+    "cross_origin_entries_count": 0,
+    "crawled_urls_in_sitemap": 2,
+    "uncrawled_sitemap_urls": 0,
+    "evidence_ids": [
+      "EV-001"
+    ],
+    "findings": []
+  },
+  "canonical": {
+    "missing_canonical_count": 0,
+    "self_referencing_count": 2,
+    "cross_page_canonical_count": 0,
+    "cross_domain_canonical_count": 0,
+    "conflicting_canonicals_count": 0,
+    "evidence_ids": [
+      "EV-001"
+    ],
+    "findings": []
+  },
+  "redirects": {
+    "redirect_count": 0,
+    "permanent_redirects_301": 0,
+    "temporary_redirects_302": 0,
+    "redirect_chains_count": 0,
+    "redirect_loops_count": 0,
+    "http_to_https_transition": true,
+    "evidence_ids": [
+      "EV-001"
+    ],
+    "findings": []
+  },
+  "metadata": {
+    "missing_title_count": 0,
+    "missing_description_count": 0,
+    "duplicate_titles_count": 0,
+    "missing_viewport_count": 0,
+    "missing_lang_count": 0,
+    "conflicting_metadata_count": 0,
+    "evidence_ids": [
+      "EV-001"
+    ],
+    "findings": []
+  },
+  "structured_data": {
+    "total_schemas_found": 1,
+    "valid_json_count": 1,
+    "syntax_error_count": 0,
+    "schema_types": [
+      "Organization"
+    ],
+    "missing_required_fields": [],
+    "evidence_ids": [
+      "EV-001"
+    ],
+    "findings": []
+  },
+  "javascript_seo": {
+    "status": "consistent",
+    "title_differs": false,
+    "canonical_differs": false,
+    "robots_differs": false,
+    "headings_differ": false,
+    "content_rendered_only": false,
+    "evidence_ids": [
+      "EV-001"
+    ],
+    "findings": []
+  },
+  "mobile_seo": {
+    "viewport_configured": true,
+    "mobile_content_parity": true,
+    "horizontal_overflow_detected": false,
+    "mobile_nav_accessible": true,
+    "evidence_ids": [
+      "EV-001"
+    ],
+    "findings": []
+  },
+  "international_seo": {
+    "html_lang_declared": "ar",
+    "hreflang_count": 0,
+    "reciprocal_annotations_valid": true,
+    "x_default_present": false,
+    "bilingual_parity": "single_language",
+    "evidence_ids": [
+      "EV-001"
+    ],
+    "findings": []
+  },
+  "performance": [
+    {
+      "metric_name": "average_fetch_duration",
+      "value": 175.0,
+      "unit": "ms",
+      "source": "navigation_timing",
+      "measurement_type": "local_browser",
+      "timestamp": "2026-11-08T13:52:16.066922Z",
+      "conditions": {
+        "pages_sampled": 2,
+        "concurrency": 1
+      },
+      "limitations": [
+        "Laboratory measurement from single collector location; not field RUM."
+      ]
+    },
+    {
+      "metric_name": "total_html_transfer_size",
+      "value": 0.0,
+      "unit": "bytes",
+      "source": "navigation_timing",
+      "measurement_type": "local_browser",
+      "timestamp": "2026-11-08T13:52:16.066922Z",
+      "conditions": {
+        "pages_sampled": 2
+      },
+      "limitations": [
+        "Represents raw HTML body size, excluding external CDN subresources."
+      ]
+    },
+    {
+      "metric_name": "playwright_render_duration",
+      "value": 750.0,
+      "unit": "ms",
+      "source": "playwright_collector",
+      "measurement_type": "laboratory",
+      "timestamp": "2026-11-08T13:52:16.066922Z",
+      "conditions": {
+        "browser": "chromium",
+        "headless": true
+      },
+      "limitations": [
+        "Includes full Playwright automation overhead and screenshot generation time."
+      ]
+    }
+  ],
+  "core_web_vitals": {
+    "lcp_ms": 750.0,
+    "inp_ms": null,
+    "cls": 0.0,
+    "lcp_source": "lab_browser",
+    "inp_source": "not_measured",
+    "cls_source": "lab_browser",
+    "field_vs_lab": "lab",
+    "assessment_status": "good",
+    "notes": [
+      "CLS evaluated from local Chromium viewport rendering session.",
+      "LCP approximated from local browser page render completion duration.",
+      "INP (Interaction to Next Paint) marked unavailable: requires real-user field telemetry (CrUX) or synthetic user interaction events."
+    ]
+  },
+  "external_metrics": {
+    "provider": "none",
+    "scope": "not_available",
+    "metrics": {},
+    "collected_at": "2026-11-08T13:52:16.066922Z",
+    "status": "disabled"
+  },
+  "findings": [
+    {
+      "finding_id": "TS-AI01",
+      "title": "Absence of Structured Data Markup on Service Page",
+      "category": "Structured Data",
+      "description": "The /services page does not implement JSON-LD structured data (such as Service or WebPage schema). While missing structured data is not an explicit technical error, schema markup helps search engines interpret page entity attributes more effectively.",
+      "page_url": "https://healthy-seo.example.com/services",
+      "source_excerpt": null,
+      "evidence_ids": [
+        "EV-001"
+      ],
+      "observation_type": "ai_interpretation",
+      "severity": "info",
+      "confidence_category": "inferred",
+      "potential_technical_impact": "التأثير على تجربة الزوار أو فاعلية الفهرسة.",
+      "recommended_action": "Assess adding Service or WebPage structured data using JSON-LD to clearly define offered capabilities."
+    },
+    {
+      "finding_id": "TS-AI02",
+      "title": "Unspecified Language and Internationalization Metadata",
+      "category": "Internationalization",
+      "description": "Content on the site is written in Arabic, but explicit hreflang annotations were not detected in the provided page crawl data.",
+      "page_url": "https://healthy-seo.example.com/",
+      "source_excerpt": null,
+      "evidence_ids": [
+        "EV-001"
+      ],
+      "observation_type": "ai_interpretation",
+      "severity": "info",
+      "confidence_category": "inferred",
+      "potential_technical_impact": "التأثير على تجربة الزوار أو فاعلية الفهرسة.",
+      "recommended_action": "Verify that the HTML lang attribute is set to 'ar' and determine if multi-regional targeting via hreflang is necessary."
+    }
+  ],
+  "recommendations": [
+    {
+      "recommendation_id": "TR-01",
+      "title": "معالجة: Absence of Structured Data Markup on Service Page",
+      "related_finding_ids": [
+        "TS-AI01"
+      ],
+      "category": "Structured Data",
+      "affected_urls": [
+        "https://healthy-seo.example.com/services"
+      ],
+      "technical_problem": "The /services page does not implement JSON-LD structured data (such as Service or WebPage schema). While missing structured data is not an explicit technical error, schema markup helps search engines interpret page entity attributes more effectively.",
+      "supporting_evidence_ids": [
+        "EV-001"
+      ],
+      "proposed_fix": "Assess adding Service or WebPage structured data using JSON-LD to clearly define offered capabilities.",
+      "implementation_guidance": "تطبيق الإصلاح التقني في الخادم أو كود القوالب HTML، ثم التحقق عبر إرسال طلب فحص مباشر.",
+      "expected_technical_benefit": "التأثير على تجربة الزوار أو فاعلية الفهرسة.",
+      "estimated_impact": "low",
+      "estimated_effort": "medium",
+      "priority": "p3",
+      "verification_method": "inspection",
+      "limitations": [
+        "يتطلب التحقق النهائي فحص الاستجابة الحية عبر أداة فحص العناوين في Google Search Console."
+      ]
+    },
+    {
+      "recommendation_id": "TR-02",
+      "title": "معالجة: Unspecified Language and Internationalization Metadata",
+      "related_finding_ids": [
+        "TS-AI02"
+      ],
+      "category": "Internationalization",
+      "affected_urls": [
+        "https://healthy-seo.example.com/"
+      ],
+      "technical_problem": "Content on the site is written in Arabic, but explicit hreflang annotations were not detected in the provided page crawl data.",
+      "supporting_evidence_ids": [
+        "EV-001"
+      ],
+      "proposed_fix": "Verify that the HTML lang attribute is set to 'ar' and determine if multi-regional targeting via hreflang is necessary.",
+      "implementation_guidance": "تطبيق الإصلاح التقني في الخادم أو كود القوالب HTML، ثم التحقق عبر إرسال طلب فحص مباشر.",
+      "expected_technical_benefit": "التأثير على تجربة الزوار أو فاعلية الفهرسة.",
+      "estimated_impact": "low",
+      "estimated_effort": "medium",
+      "priority": "p3",
+      "verification_method": "inspection",
+      "limitations": [
+        "يتطلب التحقق النهائي فحص الاستجابة الحية عبر أداة فحص العناوين في Google Search Console."
+      ]
+    }
+  ],
+  "statistics": {
+    "pages_evaluated": 2,
+    "pages_eligible": 2,
+    "indexing_signals_count": 6,
+    "structured_data_count": 1,
+    "performance_measurements_count": 3,
+    "field_metrics_available": false,
+    "lab_metrics_available": true,
+    "validated_findings_count": 2,
+    "quarantined_findings_count": 0,
+    "recommendations_count": 2,
+    "model_calls_count": 1,
+    "model_name": "gemini-3.6-flash",
+    "execution_duration_ms": 3.0,
+    "ai_status": "completed"
+  },
+  "report_markdown_path": "tests\\fixtures\\technical_seo\\fixture_a_healthy\\runs\\crawl-a\\analysis\\technical-seo\\seo-b00bb7d8ef8f\\report.md",
+  "analysis_json_path": null
+}

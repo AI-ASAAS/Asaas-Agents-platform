@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "crawl_run_id": "crawl-c",
+  "visual_run_id": "vis-c",
+  "status": "completed",
+  "target_origin": "https://mobile-fail.example.com",
+  "pages": [
+    {
+      "page_url": "https://mobile-fail.example.com/",
+      "safe_page_id": "p1",
+      "status": "completed",
+      "desktop_screenshots": [
+        {
+          "viewport_profile": "desktop",
+          "screenshot_type": "viewport",
+          "file_path": "C:\\Users\\mahmoodSaeed\\.gemini\\antigravity\\scratch\\site-dna\\tests\\fixtures\\ux_ui\\fixture_c_mobile_problems\\runs\\crawl-c\\visual\\vis-c\\pages\\p1\\desktop_viewport.png",
+          "relative_path": "pages/p1/desktop.png",
+          "file_size_bytes": 100,
+          "width_px": 100,
+          "height_px": 100,
+          "sha256": "3288675131835a9ef327be5a047c088f521f1f2de443616a22190d1f6fb23a58",
+          "success": true
+        }
+      ],
+      "mobile_screenshots": [
+        {
+          "viewport_profile": "mobile",
+          "screenshot_type": "viewport",
+          "file_path": "C:\\Users\\mahmoodSaeed\\.gemini\\antigravity\\scratch\\site-dna\\tests\\fixtures\\ux_ui\\fixture_c_mobile_problems\\runs\\crawl-c\\visual\\vis-c\\pages\\p1\\mobile_viewport.png",
+          "relative_path": "pages/p1/mobile.png",
+          "file_size_bytes": 100,
+          "width_px": 100,
+          "height_px": 100,
+          "sha256": "3288675131835a9ef327be5a047c088f521f1f2de443616a22190d1f6fb23a58",
+          "success": true
+        }
+      ],
+      "dom_elements": [
+        {
+          "element_id": "btn-tiny-1",
+          "tag_name": "button",
+          "dom_path": "body > button",
+          "classes": [
+            "tiny-btn"
+          ],
+          "text_excerpt": "x",
+          "semantic_role": "button",
+          "accessible_name": "x",
+          "visible": true,
+          "bounding_box": {
+            "x": 10,
+            "y": 10,
+            "width": 16,
+            "height": 16
+          }
+        }
+      ],
+      "responsive_observations": [
+        {
+          "observation_type": "mobile_overflow",
+          "status": "failed",
+          "description": "Horizontal overflow observed"
+        },
+        {
+          "observation_type": "clipped_element",
+          "status": "failed",
+          "description": "Element clipped outside viewport"
+        }
+      ],
+      "evidence_records": [
+        {
+          "evidence_id": "EV-C01",
+          "crawl_run_id": "crawl-c",
+          "visual_run_id": "vis-c",
+          "page_url": "https://mobile-fail.example.com/",
+          "viewport_profile": "mobile",
+          "evidence_category": "responsive_measurement",
+          "confidence_category": "observed",
+          "field_reference": "obs",
+          "observed_value": "overflow",
+          "collection_method": "playwright_measurement"
+        }
+      ]
+    }
+  ]
+}

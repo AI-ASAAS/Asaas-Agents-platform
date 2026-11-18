@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-e",
+  "website_info": {
+    "initial_url": "https://csr-app.example.com",
+    "canonical_origin": "https://csr-app.example.com"
+  },
+  "pages": [
+    {
+      "url": "https://csr-app.example.com/",
+      "final_url": "https://csr-app.example.com/",
+      "status_code": 200,
+      "depth": 0,
+      "metadata": {
+        "title": "Loading Application..."
+      },
+      "headings": [],
+      "navigation_links": [
+        {
+          "url": "javascript:void(0)",
+          "text": "Open Filter Modal",
+          "is_internal": false
+        }
+      ]
+    }
+  ],
+  "discovered_internal_links": [],
+  "evidence": [],
+  "errors": []
+}

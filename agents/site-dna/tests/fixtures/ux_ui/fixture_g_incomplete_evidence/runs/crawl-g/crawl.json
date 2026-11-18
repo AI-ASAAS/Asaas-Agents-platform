@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "run_id": "crawl-g",
+  "status": "completed",
+  "website_info": {
+    "initial_url": "https://incomplete.example.com",
+    "canonical_origin": "https://incomplete.example.com"
+  },
+  "pages": [
+    {
+      "url": "https://incomplete.example.com/",
+      "final_url": "https://incomplete.example.com/",
+      "depth": 0,
+      "status_code": 200
+    }
+  ]
+}

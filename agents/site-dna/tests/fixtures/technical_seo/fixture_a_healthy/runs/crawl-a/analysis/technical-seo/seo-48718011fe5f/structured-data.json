@@ -1,0 +1,13 @@
+{
+  "total_schemas_found": 1,
+  "valid_json_count": 1,
+  "syntax_error_count": 0,
+  "schema_types": [
+    "Organization"
+  ],
+  "missing_required_fields": [],
+  "evidence_ids": [
+    "EV-001"
+  ],
+  "findings": []
+}

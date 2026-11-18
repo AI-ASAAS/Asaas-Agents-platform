@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "crawl_run_id": "crawl-c",
+  "visual_run_id": "vis-c",
+  "status": "completed",
+  "target_origin": "https://site-c.com",
+  "pages": [
+    {
+      "page_url": "https://site-c.com/",
+      "safe_page_id": "page_00_home",
+      "status": "completed",
+      "desktop_screenshots": [
+        {
+          "viewport_profile": "desktop",
+          "screenshot_type": "viewport",
+          "file_path": "C:\\Users\\mahmoodSaeed\\.gemini\\antigravity\\scratch\\site-dna\\tests\\fixtures\\visual_identity\\fixture_c\\runs\\crawl-c\\visual\\vis-c\\pages\\p1\\desktop_viewport.png",
+          "relative_path": "pages/p1/desktop_viewport.png",
+          "file_size_bytes": 4789,
+          "width_px": 1280,
+          "height_px": 800,
+          "sha256": "d78b030ebc8a972c823c8081326537ea44f358d376f6662fe9acbf31676cc405",
+          "success": true
+        }
+      ],
+      "mobile_screenshots": [],
+      "colors": [
+        {
+          "hex": "#000000",
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "usage": "text",
+          "occurrence_count": 10
+        },
+        {
+          "hex": "#ffffff",
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "usage": "background",
+          "occurrence_count": 10
+        }
+      ],
+      "typography": [
+        {
+          "element_type": "p",
+          "font_family": "system-ui",
+          "font_size_px": 16.0,
+          "font_weight": "400"
+        }
+      ],
+      "evidence_records": [
+        {
+          "evidence_id": "ev-c-1",
+          "crawl_run_id": "crawl-c",
+          "visual_run_id": "vis-c",
+          "page_url": "https://site-c.com/",
+          "viewport_profile": "desktop",
+          "evidence_category": "screenshot",
+          "confidence_category": "observed",
+          "field_reference": "shot",
+          "observed_value": "C:\\Users\\mahmoodSaeed\\.gemini\\antigravity\\scratch\\site-dna\\tests\\fixtures\\visual_identity\\fixture_c\\runs\\crawl-c\\visual\\vis-c\\pages\\p1\\desktop_viewport.png",
+          "collection_method": "playwright"
+        }
+      ]
+    }
+  ]
+}

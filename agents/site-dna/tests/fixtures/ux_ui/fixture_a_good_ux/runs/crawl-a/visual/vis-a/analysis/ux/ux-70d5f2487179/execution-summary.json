@@ -1,0 +1,15 @@
+{
+  "analysis_run_id": "ux-70d5f2487179",
+  "crawl_run_id": "crawl-a",
+  "visual_run_id": "vis-a",
+  "status": "completed",
+  "overall_score": 94.6,
+  "validated_findings": 2,
+  "rejected_findings": 0,
+  "recommendations": 2,
+  "journeys_mapped": 4,
+  "duration_ms": 5.97,
+  "model_name": "gemini-3.6-flash",
+  "ai_analysis_completed": true,
+  "from_cache": true
+}

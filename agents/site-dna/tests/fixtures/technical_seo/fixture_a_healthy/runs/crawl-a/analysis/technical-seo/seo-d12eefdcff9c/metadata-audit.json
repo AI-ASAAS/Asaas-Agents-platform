@@ -1,0 +1,12 @@
+{
+  "missing_title_count": 0,
+  "missing_description_count": 0,
+  "duplicate_titles_count": 0,
+  "missing_viewport_count": 0,
+  "missing_lang_count": 0,
+  "conflicting_metadata_count": 0,
+  "evidence_ids": [
+    "EV-001"
+  ],
+  "findings": []
+}
